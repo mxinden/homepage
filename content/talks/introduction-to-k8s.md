@@ -14,4 +14,5 @@ concepts of Kubernetes, its benefits and its huge ecosystem and gives you an
 idea of how Google controls parts of their gigantic infrastructure.
 
 
-- [Recording](https://www.youtube.com/watch?v=oYvKnOdsVf4&t=1s)
+- [Recording 1](https://www.youtube.com/watch?v=oYvKnOdsVf4&t=1s)
+- [Recording 2](https://youtu.be/mZvXwnpwBhE)
