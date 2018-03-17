@@ -1,5 +1,5 @@
 ---
 title: Home
 menu: main
-weight: -2
+weight: -10
 ---
