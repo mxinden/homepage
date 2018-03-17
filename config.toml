@@ -20,7 +20,7 @@ pygmentsCodefences = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "Homepage of Max Leonard Inden"
+description = ""
 title404 = "Nothing's here!"
 
 [params.assets]
