@@ -34,11 +34,12 @@ factors that affect consumer behaviour.
 
 ### Software Engineer at CoreOS / RedHat
 
-**Jan 2017 - Present** || Engineer working on the open source monitoring project **Prometheus** and its
-integration with the **Kubernetes** ecosystem to monitor cloud-native Linux
-container infrastructures. Implementing new testing infrastructures and
-development automations to support the upstream Prometheus project as well as
-the CoreOS Tectonic Kubernetes distribution.
+**Jan 2017 - Present** || Engineer working on the open source monitoring project
+**Prometheus** and its integration with the **Kubernetes** ecosystem to monitor
+cloud-native Linux container infrastructures. Implementing new testing
+infrastructures and development automations to support the upstream Prometheus
+project as well as the CoreOS Tectonic Kubernetes distribution. Presenting open
+source work at various IT conferences.
 
 
 ### Software Engineer at Innoscale
@@ -63,7 +64,7 @@ software testing. Introduction of a new human ressource management framework.
 ### Associate System Support Analyst at DHL IT-Services
 
 **Jul - Sep 2013** || Working in the IBM AS400 and Linux operation team.
-Development of graphical visualiza- tion tool to analyse the operation alert
+Development of graphical visualization tool to analyse the operation alert
 system of the IBM infrastructure. Creating regular server security reports.
 Management of a database for internal license management.
 
