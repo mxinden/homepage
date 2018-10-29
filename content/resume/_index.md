@@ -1,5 +1,5 @@
 ---
-title: Curriculum Vitae
+title: Resume
 author: Max Leonard Inden
 menu: main
 weight: -9
@@ -83,6 +83,11 @@ maintanance, network architecture and software distribution.
 
 ## Volunteer & Extracurricular Work
 
+**Tutor and Mentor for Refugee Family** | 2018 - current
+
+Tutoring Math, Physics, English and German. Mentoring and assisting with
+authorities.
+
 **Prometheus Core Member** | 2017 - current
 
 Member of the upstream core team of the open source monitoring tool
@@ -105,7 +110,7 @@ Administrator.
 
 ## Technical Skills
 
-- **Languages**: Go, Ruby, JavaScript (NodeJS, Coffee Script), Java (EE), SQL, MongoDB query
+- **Languages**: Go, Ruby, elm, JavaScript (NodeJS, Coffee Script), Java (EE), SQL, MongoDB query
 language, Haskell, Shell Scripting, Swift
 
 - **Frameworks & Projects**: Kubernetes, Prometheus, Docker, git, LaTeX

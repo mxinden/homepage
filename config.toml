@@ -40,8 +40,13 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 dateFormat = "2006, Jan 02"
 listDateFormat = "2006, Jan 02"
 hideEntryNavigation = ["page"] # boolean / array of sections
-hideSocialMenu = false
+hideSocialMenu = true
 # showReadingTime = true
+
+
+[params.widgets]
+footer = ["social_menu"]
+homepage = ["recent_posts"]
 
 # [params.opengraph.facebook]
 # admins = [] # array of Facebook IDs
@@ -85,3 +90,6 @@ hrefTargetBlank = true
 lang = "en"
 languageName = "English"
 weight = 1
+
+[params]
+RSSLink = "mxinden.hallo.com"
