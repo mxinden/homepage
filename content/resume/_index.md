@@ -6,46 +6,16 @@ weight: -9
 ---
 
 
-## Education
-
-
-**Bachelor at WWU Münster** | 2013 – 2016
-
-Bachelor of Applied Science (B.A.Sc.) in Information systems at the
-Westfälische Wilhelms-Universität Münster, combining computer science and
-business administration with a special focus on enterprise applications and
-architectures. Specialization during bachelor thesis on conception of
-datastructure dialects and development of an application for metadata
-management.
-
-
-**Exchange Semester at UIA Kristiansand** | 2015
-
-Participation in the bachelor and master program Information Systems at
-Universitetet i Agder with the courses Open Source, development of a mobile
-lecture support application, Hands-on-eBusiness for Entrepreneurs, development
-of a both mobile and desktop web shop, IT and Management, operational and
-strategic management of enterprise information technology, and Consumer
-Behaviour, analysis and prediction of psychological, social and cultural
-factors that affect consumer behaviour.
-
-
-**Abitur at Amos Comenius Gymnasium Bonn** | 2004 - 2013
-
-
-**Exchange year at Lugoff-Elgin High School SC USA** | 2010 - 2011
-
-
 ## Experience
 
 **Software Engineer at CoreOS / RedHat** | Jan 2017 - Present
 
-Engineer working on the open source monitoring project
-**Prometheus** and its integration with the **Kubernetes** ecosystem to monitor
-cloud-native Linux container infrastructures. Implementing new testing
-infrastructures and development automations to support the upstream Prometheus
-project as well as the CoreOS Tectonic Kubernetes distribution. Presenting open
-source work at various IT conferences.
+Systems engineer working on the open source monitoring project **Prometheus**
+and its integration with the **Kubernetes** ecosystem to monitor cloud-native
+Linux container infrastructures. Designing and implementing distributed systems
+on top of the Linux operating system and Kubernetes orchestrator. Presenting
+open source work at various IT conferences and champion the Prometheus project
+as a core maintainer.
 
 
 **Software Engineer at Innoscale** | Aug 2014 - Dec 2016
@@ -106,6 +76,38 @@ faculty in their day-to-day student life, taking the role of the Website
 Administrator.
 
 **Math, Physics and English Tutor** | 2010 - 2013
+
+
+## Education
+
+
+**Bachelor at WWU Münster** | 2013 – 2016
+
+Bachelor of Applied Science (B.A.Sc.) in Information systems at the
+Westfälische Wilhelms-Universität Münster, combining computer science and
+business administration with a special focus on enterprise applications and
+architectures. Specialization during bachelor thesis on conception of
+datastructure dialects and development of an application for metadata
+management.
+
+
+**Exchange Semester at UIA Kristiansand** | 2015
+
+Participation in the bachelor and master program Information Systems at
+Universitetet i Agder with the courses Open Source, development of a mobile
+lecture support application, Hands-on-eBusiness for Entrepreneurs, development
+of a both mobile and desktop web shop, IT and Management, operational and
+strategic management of enterprise information technology, and Consumer
+Behaviour, analysis and prediction of psychological, social and cultural
+factors that affect consumer behaviour.
+
+
+**Abitur at Amos Comenius Gymnasium Bonn** | 2004 - 2013
+
+
+**Exchange year at Lugoff-Elgin High School SC USA** | 2010 - 2011
+
+
 
 
 ## Technical Skills
