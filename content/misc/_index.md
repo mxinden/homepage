@@ -35,11 +35,14 @@ weight: -7
 - Kurose, J. F., & Ross, K. W. (2017). **Computer networking: a top-down
   approach** (Vol. 7). Boston, USA: Addison Wesley.
 
-- Tanenbaum, A. S., & Van Steen, M. (2017). **Distributed systems**: principles and
-  paradigms.
-
 - Kleppmann, M. (2017). **Designing data-intensive applications**: The big ideas
   behind reliable, scalable, and maintainable systems. " O'Reilly Media, Inc.".
+
+- Klabnik, Steve, and Carol Nichols. **The Rust Programming Language**. No
+  Starch Press, 2018.
+
+- Tanenbaum, A. S., & Van Steen, M. (2017). **Distributed systems**: principles and
+  paradigms.
 
 - Gregg, B. (2013). **Systems performance: enterprise and the cloud**. Pearson
   Education.
