@@ -8,7 +8,7 @@ weight: -9
 
 ## Experience
 
-**Software Engineer at CoreOS / RedHat** | Jan 2017 - Present
+**Senior Software Engineer at CoreOS / RedHat** | Jan 2017 - Present
 
 Systems engineer working on the open source monitoring project **Prometheus**
 and its integration with the **Kubernetes** ecosystem to monitor cloud-native
@@ -68,6 +68,8 @@ at tech-conferences and helping adoption in user communities.
 
 Administrator for the non-profit _Informationsdienst Umweltrecht e.V._ for
 their online presence.
+
+**(Certified) Ski Instructor** | 2017 - current
 
 **Student Council** | 2013 -2016
 
