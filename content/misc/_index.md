@@ -30,6 +30,9 @@ weight: -7
 - _2018-08-13_ - Maintainer of [Prometheus
   Alertmanager](https://github.com/prometheus/alertmanager).
 
+- _2017-11-12_ - Joining [Prometheus
+  organisation](https://prometheus.io/governance/#team-members).
+
 ## Books
 
 - Kurose, J. F., & Ross, K. W. (2017). **Computer networking: a top-down
@@ -47,12 +50,15 @@ weight: -7
 - Gregg, B. (2013). **Systems performance: enterprise and the cloud**. Pearson
   Education.
 
-- Grigorik, I. (2013). **High Performance Browser Networking**: What every web
-  developer should know about networking and web performance. " O'Reilly Media,
-  Inc.".
+- Cox-Buday, Katherine. **Concurrency in Go: Tools and Techniques for
+  Developers.** " O'Reilly Media, Inc.", 2017.
 
 - Lipovaca, M. (2011). **Learn you a haskell for great good!**: a beginner's
   guide. no starch press.
+
+- Grigorik, I. (2013). **High Performance Browser Networking**: What every web
+  developer should know about networking and web performance. " O'Reilly Media,
+  Inc.".
 
 - Love, R. (2005). **Linux Kernel Development** (Novell Press). Novell Press.
 
