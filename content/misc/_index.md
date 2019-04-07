@@ -33,7 +33,10 @@ weight: -7
 - _2017-11-12_ - Joining [Prometheus
   organisation](https://prometheus.io/governance/#team-members).
 
-## Books
+
+## Readings worth sharing
+
+### Books
 
 - Kurose, J. F., & Ross, K. W. (2017). **Computer networking: a top-down
   approach** (Vol. 7). Boston, USA: Addison Wesley.
@@ -64,3 +67,30 @@ weight: -7
 
 - Beyer, B., Jones, C., Petoff, J., & Murphy, N. R. (2016). **Site Reliability
   Engineering: How Google Runs Production Systems**. " O'Reilly Media, Inc.".
+
+
+### Papers
+
+#### Databases
+
+- Levandoski, Justin J., David B. Lomet, and Sudipta Sengupta. **"The Bw-Tree: A
+  B-tree for new hardware platforms."** 2013 IEEE 29th International Conference
+  on Data Engineering (ICDE). IEEE, 2013.
+
+- Thomson, Alexander, et al. **"Calvin: fast distributed transactions for
+  partitioned database systems."** Proceedings of the 2012 ACM SIGMOD
+  International Conference on Management of Data. ACM, 2012.
+
+
+#### Lock-free data structures
+
+- Hart, Thomas Edward. **Comparative performance of memory reclamation strategies
+  for lock-free and concurrently-readable data structures**. University of
+  Toronto, 2005.
+
+
+#### Networking
+
+- Van Renesse, Robbert, et al. **"Efficient reconciliation and flow control for
+  anti-entropy protocols."** proceedings of the 2nd Workshop on Large-Scale
+  Distributed Systems and Middleware. ACM, 2008.
