@@ -34,7 +34,7 @@ weight: -7
   organisation](https://prometheus.io/governance/#team-members).
 
 
-## Readings worth sharing
+## Resources worth sharing
 
 ### Books
 
@@ -52,6 +52,8 @@ weight: -7
 
 - Gregg, B. (2013). **Systems performance: enterprise and the cloud**. Pearson
   Education.
+  
+- Cooper, Keith, and Linda Torczon. **Engineering a compiler**. Elsevier, 2011.
 
 - Cox-Buday, Katherine. **Concurrency in Go: Tools and Techniques for
   Developers.** " O'Reilly Media, Inc.", 2017.
@@ -87,6 +89,13 @@ weight: -7
 - Hart, Thomas Edward. **Comparative performance of memory reclamation strategies
   for lock-free and concurrently-readable data structures**. University of
   Toronto, 2005.
+  
+- Kogan, Alex, and Erez Petrank. **"A methodology for creating fast wait-free
+  data structures."** ACM SIGPLAN Notices. Vol. 47. No. 8. ACM, 2012.
+  
+- Herlihy, Maurice, Victor Luchangco, and Mark Moir. **"Obstruction-free
+  synchronization: Double-ended queues as an example."** 23rd International
+  Conference on Distributed Computing Systems, 2003. Proceedings.. IEEE, 2003.
 
 
 #### Networking
