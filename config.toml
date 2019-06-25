@@ -79,7 +79,6 @@ tag = "tags"
 
 [permalinks]
 page = "/:slug/"
-rl = "https://github.com/MunifTanjim/minimo"
 
 [blackfriday]
 hrefTargetBlank = true
