@@ -62,7 +62,7 @@ homepage = ["recent_posts"]
 
 [params.social]
 # codepen = ""
-email = "IndenML@gmail.com"
+email = "mail@max-inden.de"
 # facebook = ""
 github = "mxinden"
 # instagram = ""
@@ -91,4 +91,4 @@ languageName = "English"
 weight = 1
 
 [params]
-RSSLink = "mxinden.hallo.com"
+RSSLink = "mxinden.github.io/index.xml"

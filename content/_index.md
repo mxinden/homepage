@@ -9,7 +9,7 @@ weight: -10
 I am Max, a software developer, systems engineer, distributed systems addict,
 ... **curious individual**.
 
-You can best reach me via e-mail: IndenML@gmail.com.
+You can best reach me via e-mail: mail@max-inden.de.
 
 <small>GPG Fingerprint: *4110045EE7A432D67AFAC8C85403C5464810BC26*</small>
 
