@@ -77,13 +77,13 @@ weight: -7
 
 - Howard, Heidi. (2018). **Distributed consensus revised.**
 
-- Levandoski, Justin J., David B. Lomet, and Sudipta Sengupta. **"The Bw-Tree: A
-  B-tree for new hardware platforms."** 2013 IEEE 29th International Conference
-  on Data Engineering (ICDE). IEEE, 2013.
-
 - Fischer, Michael J., Nancy A. Lynch, and Michael S. Paterson. **Impossibility
   of distributed consensus with one faulty process.** No. MIT/LCS/TR-282.
   Massachusetts Inst of Tech Cambridge lab for Computer Science, 1982.
+
+- Levandoski, Justin J., David B. Lomet, and Sudipta Sengupta. **"The Bw-Tree: A
+  B-tree for new hardware platforms."** 2013 IEEE 29th International Conference
+  on Data Engineering (ICDE). IEEE, 2013.
 
 - Thomson, Alexander, et al. **"Calvin: fast distributed transactions for
   partitioned database systems."** Proceedings of the 2012 ACM SIGMOD

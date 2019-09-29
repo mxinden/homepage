@@ -1,94 +1,54 @@
-baseURL = "https://mxinden.github.io/"
-title = "mxinden"
-# for smart copyright line, leave this blank and check [params.copyright]
-copyright = ""
-
-theme = "minimo"
-
-# disqusShortname = ""
-# googleAnalytics = ""
-
-# Paginate = 5
-preserveTaxonomyNames = true
-
-enableRobotsTXT = true # generate robots.txt
-
-# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
-pygmentsCodefences = true
-
-# Missing translations will default to this content language
+baseURL = "https://mxinden.github.io"
+languageCode = "en-us"
 defaultContentLanguage = "en"
-
-[params.info]
-description = ""
-title404 = "Nothing's here!"
-
-[params.assets]
-favicon = "favicon.ico"
-customCSS = ["css/custom.css"]
-customJS = ["js/custom.js"]
-gopher = "" # used in 404 template ( Generator: https://gopherize.me )
-
-# [params.copyright]
-# prefix = ""
-# holder = "Max Inden"
-# startYear = "2017"
-# suffix = ""
-
-[params.settings]
-# date & time format: https://golang.org/pkg/time/
-dateFormat = "2006, Jan 02"
-listDateFormat = "2006, Jan 02"
-hideEntryNavigation = ["page"] # boolean / array of sections
-hideSocialMenu = true
-# showReadingTime = true
-
-
-[params.widgets]
-footer = ["social_menu"]
-homepage = ["recent_posts"]
-
-# [params.opengraph.facebook]
-# admins = [] # array of Facebook IDs
-# appID = ""
-# pageID = ""
-
-# [params.opengraph.twitter]
-# page = "" # Twitter page username
-
-# [params.seo]
-# # Title Separator: - – — · • * ⋆ | ~ « » < >
-# titleSeparator = "•"
-
-[params.social]
-# codepen = ""
-email = "mail@max-inden.de"
-# facebook = ""
-github = "mxinden"
-# instagram = ""
-# linkedin = ""
-twitter = "mxinden"
-
-[params.social.config]
-platforms = ["github","twitter","email"]
+title = "mxinden"
+theme = "cupper-hugo-theme"
+enableGitInfo = false
 
 [taxonomies]
-author = "authors"
-category = "categories"
-tag = "tags"
+  tag = "tags"
 
 [permalinks]
-page = "/:slug/"
+  post = "/:filename/"
 
-[blackfriday]
-hrefTargetBlank = true
-
-[languages]
-# edit this block for your own language
-[languages.en]
-lang = "en"
-languageName = "English"
-weight = 1
+[imaging]
+  quality = 99
 
 [params]
-RSSLink = "mxinden.github.io/index.xml"
+  description = "Homepage of Max Inden"
+  homeMetaContent = ""
+  footer = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme)."
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat = "Jan 2, 2006"
+  # codePenUser = "someUser"
+  # katex = true
+
+[menu]
+  [[menu.nav]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+  [[menu.nav]]
+    name = "Talks"
+    url = "/talks/"
+    weight = 3
+  [[menu.nav]]
+    name = "Resume"
+    url = "/resume/"
+    weight = 4
+  [[menu.nav]]
+    name = "Misc"
+    url = "/misc/"
+    weight = 5
+  [[menu.nav]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 6
+  [[menu.nav]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 7

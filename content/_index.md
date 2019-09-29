@@ -6,8 +6,8 @@ weight: -10
 
 #### Hi there,
 
-I am Max, a software developer, systems engineer, distributed systems addict,
-... **curious individual**.
+I am Max, a software developer and systems engineer interested in distributed
+systems.
 
 You can best reach me via e-mail: mail@max-inden.de.
 
