@@ -8,7 +8,7 @@ weight: -7
 
 - _2019-01-16_ - Maintainer of [Kubernetes
   kube-state-metrics](https://github.com/kubernetes/kube-state-metrics).
-  
+
 - _2019-01-15_ - Joining [Kubernetes
   organisation](https://github.com/kubernetes/org/issues/364).
 
@@ -52,7 +52,7 @@ weight: -7
 
 - Gregg, B. (2013). **Systems performance: enterprise and the cloud**. Pearson
   Education.
-  
+
 - Cooper, Keith, and Linda Torczon. **Engineering a compiler**. Elsevier, 2011.
 
 - Cox-Buday, Katherine. **Concurrency in Go: Tools and Techniques for
@@ -75,9 +75,15 @@ weight: -7
 
 #### Databases
 
+- Howard, Heidi. (2018). **Distributed consensus revised.**
+
 - Levandoski, Justin J., David B. Lomet, and Sudipta Sengupta. **"The Bw-Tree: A
   B-tree for new hardware platforms."** 2013 IEEE 29th International Conference
   on Data Engineering (ICDE). IEEE, 2013.
+
+- Fischer, Michael J., Nancy A. Lynch, and Michael S. Paterson. **Impossibility
+  of distributed consensus with one faulty process.** No. MIT/LCS/TR-282.
+  Massachusetts Inst of Tech Cambridge lab for Computer Science, 1982.
 
 - Thomson, Alexander, et al. **"Calvin: fast distributed transactions for
   partitioned database systems."** Proceedings of the 2012 ACM SIGMOD
@@ -89,16 +95,31 @@ weight: -7
 - Hart, Thomas Edward. **Comparative performance of memory reclamation strategies
   for lock-free and concurrently-readable data structures**. University of
   Toronto, 2005.
-  
+
 - Kogan, Alex, and Erez Petrank. **"A methodology for creating fast wait-free
   data structures."** ACM SIGPLAN Notices. Vol. 47. No. 8. ACM, 2012.
-  
+
 - Herlihy, Maurice, Victor Luchangco, and Mark Moir. **"Obstruction-free
   synchronization: Double-ended queues as an example."** 23rd International
   Conference on Distributed Computing Systems, 2003. Proceedings.. IEEE, 2003.
 
 
+#### Hardware synchronization
+
+- David, Tudor, Rachid Guerraoui, and Vasileios Trigonakis. **"Everything you
+  always wanted to know about synchronization but were afraid to ask."**
+  Proceedings of the Twenty-Fourth ACM Symposium on Operating Systems
+  Principles. ACM, 2013.
+
+
 #### Networking
+
+- Lamport, Leslie. **"Time, clocks, and the ordering of events in a distributed
+  system."** Communications of the ACM 21.7 (1978): 558-565.
+
+- Maymounkov, Petar, and David Mazieres. **"Kademlia: A peer-to-peer information
+  system based on the xor metric."** International Workshop on Peer-to-Peer
+  Systems. Springer, Berlin, Heidelberg, 2002.
 
 - Van Renesse, Robbert, et al. **"Efficient reconciliation and flow control for
   anti-entropy protocols."** proceedings of the 2nd Workshop on Large-Scale
