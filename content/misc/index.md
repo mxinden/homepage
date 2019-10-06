@@ -4,7 +4,7 @@ menu: main
 weight: -7
 ---
 
-## Projects & Achievements
+# Projects & Achievements
 
 - _2019-01-16_ - Maintainer of [Kubernetes
   kube-state-metrics](https://github.com/kubernetes/kube-state-metrics).
@@ -34,9 +34,9 @@ weight: -7
   organisation](https://prometheus.io/governance/#team-members).
 
 
-## Resources worth sharing
+# Resources worth sharing
 
-### Books
+## Books
 
 - Kurose, J. F., & Ross, K. W. (2017). **Computer networking: a top-down
   approach** (Vol. 7). Boston, USA: Addison Wesley.
@@ -71,9 +71,9 @@ weight: -7
   Engineering: How Google Runs Production Systems**. " O'Reilly Media, Inc.".
 
 
-### Papers
+## Papers
 
-#### Databases
+### Databases
 
 - Howard, Heidi. (2018). **Distributed consensus revised.**
 
@@ -90,7 +90,7 @@ weight: -7
   International Conference on Management of Data. ACM, 2012.
 
 
-#### Lock-free data structures
+### Lock-free data structures
 
 - Hart, Thomas Edward. **Comparative performance of memory reclamation strategies
   for lock-free and concurrently-readable data structures**. University of
@@ -104,7 +104,7 @@ weight: -7
   Conference on Distributed Computing Systems, 2003. Proceedings.. IEEE, 2003.
 
 
-#### Hardware synchronization
+### Hardware synchronization
 
 - David, Tudor, Rachid Guerraoui, and Vasileios Trigonakis. **"Everything you
   always wanted to know about synchronization but were afraid to ask."**
@@ -112,15 +112,35 @@ weight: -7
   Principles. ACM, 2013.
 
 
-#### Networking
+### Networking
 
 - Lamport, Leslie. **"Time, clocks, and the ordering of events in a distributed
   system."** Communications of the ACM 21.7 (1978): 558-565.
+
+- Van Renesse, Robbert, et al. **"Efficient reconciliation and flow control for
+  anti-entropy protocols."** proceedings of the 2nd Workshop on Large-Scale
+  Distributed Systems and Middleware. ACM, 2008.
+
+
+#### Peer to peer
+
+##### Gossip / epidemic broadcast
+
+- Leitao, Joao, Jose Pereira, and Luis Rodrigues. **"Epidemic broadcast
+  trees."** 2007 26th IEEE International Symposium on Reliable Distributed
+  Systems (SRDS 2007). IEEE, 2007.
+
+
+##### Distributed hash table
 
 - Maymounkov, Petar, and David Mazieres. **"Kademlia: A peer-to-peer information
   system based on the xor metric."** International Workshop on Peer-to-Peer
   Systems. Springer, Berlin, Heidelberg, 2002.
 
-- Van Renesse, Robbert, et al. **"Efficient reconciliation and flow control for
-  anti-entropy protocols."** proceedings of the 2nd Workshop on Large-Scale
-  Distributed Systems and Middleware. ACM, 2008.
+
+##### Membership protocol
+
+- Das, Abhinandan, Indranil Gupta, and Ashish Motivala. **"Swim: Scalable
+  weakly-consistent infection-style process group membership protocol."**
+  Proceedings International Conference on Dependable Systems and Networks. IEEE,
+  2002.
