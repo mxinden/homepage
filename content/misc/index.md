@@ -117,6 +117,13 @@ weight: -7
 - Lamport, Leslie. **"Time, clocks, and the ordering of events in a distributed
   system."** Communications of the ACM 21.7 (1978): 558-565.
 
+- Chandy, K. Mani, and Leslie Lamport. **"Distributed snapshots: Determining
+  global states of distributed systems."** ACM Transactions on Computer Systems
+  (TOCS) 3.1 (1985): 63-75.
+
+- Shapiro, Marc, et al. **"A comprehensive study of convergent and commutative
+  replicated data types."** (2011).
+
 - Van Renesse, Robbert, et al. **"Efficient reconciliation and flow control for
   anti-entropy protocols."** proceedings of the 2nd Workshop on Large-Scale
   Distributed Systems and Middleware. ACM, 2008.
