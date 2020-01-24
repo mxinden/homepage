@@ -2,6 +2,7 @@
 date: 2019-10-27T00:00:00Z
 tags: [tech, paper, distributed-systems]
 title: 19th Distributed Systems Paper Club
+type: "posts"
 ---
 
 I have been organizing a distributed systems paper reading group in Berlin for

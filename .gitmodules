@@ -8,3 +8,6 @@
 	path = public
 	url = git@github.com:mxinden/mxinden.github.io.git
 	branch = master
+[submodule "themes/ezhil"]
+	path = themes/ezhil
+	url = https://github.com/vividvilla/ezhil.git

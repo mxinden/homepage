@@ -1,7 +1,7 @@
 ---
 title: Misc
 menu: main
-weight: -7
+weight: 6
 ---
 
 # Projects & Achievements

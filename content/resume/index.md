@@ -2,7 +2,7 @@
 title: Resume
 author: Max Leonard Inden
 menu: main
-weight: -9
+weight: 3
 ---
 
 
