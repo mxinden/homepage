@@ -27,7 +27,7 @@ weight: 6
   distributed and decentralized systems research and their real-world
   applications.
 
-- _2018-08-13_ - Maintainer of [Prometheus
+- _2018-08-13_ to _2020-01-06_ - Maintainer of [Prometheus
   Alertmanager](https://github.com/prometheus/alertmanager).
 
 - _2017-11-12_ - Joining [Prometheus
