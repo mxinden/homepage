@@ -6,7 +6,7 @@ weight: 6
 
 # Projects & Achievements
 
-- _2019-01-16_ - Maintainer of [Kubernetes
+- _2019-01-16_ to _2019-08-02_ - Maintainer of [Kubernetes
   kube-state-metrics](https://github.com/kubernetes/kube-state-metrics).
 
 - _2019-01-15_ - Joining [Kubernetes
@@ -30,7 +30,7 @@ weight: 6
 - _2018-08-13_ to _2020-01-06_ - Maintainer of [Prometheus
   Alertmanager](https://github.com/prometheus/alertmanager).
 
-- _2017-11-12_ - Joining [Prometheus
+- _2017-11-12_ to _2020-03-13_ - Part of [Prometheus
   organisation](https://prometheus.io/governance/#team-members).
 
 

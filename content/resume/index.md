@@ -8,7 +8,17 @@ weight: 3
 
 ## Experience
 
-**Senior Software Engineer at CoreOS / RedHat** | Jan 2017 - Present
+**Software Engineer at Parity** | July 2019 - Present
+
+
+**Freelance Network Engineer at SpaceNet AG** | Jun 2019
+
+Work on multiplexed fiber-optic setup and server migration. Wrote Prometheus
+exporter to monitor data center power modules via Modbus. Gained insight into
+BGP infrastructure.
+
+
+**Senior Software Engineer at CoreOS / RedHat** | Jan 2017 - May 2019
 
 Systems engineer working on the open source monitoring project **Prometheus**
 and its integration with the **Kubernetes** ecosystem to monitor cloud-native
