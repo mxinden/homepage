@@ -92,6 +92,10 @@ weight: 6
 
 ### Lock-free data structures
 
+- Hendler, Danny, Nir Shavit, and Lena Yerushalmi. **"A scalable lock-free stack
+  algorithm."** Proceedings of the sixteenth annual ACM symposium on Parallelism
+  in algorithms and architectures. 2004.
+
 - Hart, Thomas Edward. **Comparative performance of memory reclamation strategies
   for lock-free and concurrently-readable data structures**. University of
   Toronto, 2005.
