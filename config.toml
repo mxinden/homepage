@@ -36,3 +36,6 @@ url = "https://github.com/mxinden"
 name = "Tags"
 url = "/tags"
 
+[markup]
+  [markup.highlight]
+    style = "bw"
