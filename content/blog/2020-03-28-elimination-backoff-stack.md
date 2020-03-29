@@ -1,7 +1,7 @@
 ---
 date: 2020-03-28T00:00:00Z
 tags: [tech, paper, lock-free, multithreaded, concurrent]
-title:  Elimination back-off stack implementation
+title:  Elimination back-off stack
 type: "posts"
 ---
 
@@ -81,16 +81,18 @@ retrying.
 
 A lock-free elimination back-off stack wraps a lock-free Treiber stack, but
 instead of simply exponentially backing off on `compare_and_set` failures, it
-uses something called an elimination array to back-off in both space and time.
+uses something called an elimination array to back-off in space instead of time.
 
 
 ### Elimination Array
 
-A stack allows two operations: `push` and `pop`. A `push` followed by a `pop`
-leaves a given stack in the same state as it was before the two operations. Thus
-the two operations *cancel out*. An elimination array is a fixed size array
-where each slot enables a thread executing a `push` operation to hand its item
-over to a thread executing a `pop` operation.
+The stack datastructure allows two operations: `push` and `pop`. A `push`
+followed by a `pop` leaves a given stack in the same state as it was before the
+two operations. Thus the two operations *cancel out*. An elimination array is a
+fixed size array where each slot enables a thread executing a `push` operation
+to hand its item over to a thread executing a `pop` operation *canceling* the
+two out. A reasonable size for the elimination array would be the amount of
+threads operating on the datastructure.
 
 
 ``` markdown
@@ -121,9 +123,98 @@ an operation's `compare_and_set` is likely to fail. Instead of backing-off by
 waiting a bit and retrying on the stack, an operation would try to exchange with
 its counterpart on the elimination array instead.
 
-TODO: Explain what backing off in terms of space instead of time means.
+```rust
+pub struct EliminationArray<T> {
+    exchangers: Vec<Exchanger<T>>,
+}
 
-The result is a lock-free stack that is both _linearizable_ and _parallel_.
+pub struct Exchanger<T> {
+    item: Atomic<Item<T>>,
+}
+
+enum Item<T> {
+    Empty,
+    Waiting(ManuallyDrop<T>),
+    Busy,
+}
+```
+
+In order for a `push` operation to exchange its `data` with a `pop` operation,
+the `push` operation first selects an `Exchanger` within the elimination array
+at random. It then checks the `item` field of the `Exchanger`.
+
+- If it is **`Empty`** the `Exchanger` is currently not in use. Thus it can
+  `compare_and_set` it to `Waiting` with the `data` it wants to exchange. Next
+  it loops until a corresponding `pop` operation sets the `Item` to `Busy`
+  signaling a successful exchange. As a final step the `push` operation cleans
+  up after itself by setting the `Exchanger` back to `Empty` for future
+  exchanges to happen.
+
+- If it is **`Waiting`** the `Exchanger` is currently in use by another `push`
+  operation waiting for a `pop` operation. Our `push` operation should try
+  another `Exchanger` within the elimination array instead.
+
+- If it is **`Busy`** the `Exchanger` is currently in use by another `push`
+  operation that already exchanged its `data` with a `pop` operation but has not
+  yet done the final step. Our `push` operation should again try another
+  `Exchanger`.
+
+In order for a `pop` operation to eliminate with a `push` operation and receive
+its `data` it picks, just like a `push` operation, an `Exchanger` within the
+elimination array at random. It then checks the `item` field of that
+`Exchanger`.
+
+- If it is **`Empty`** the `Exchanger` is currently not in use. Instead of
+  waiting for a `push` operation the `pop` operation tries another `Exchanger`
+  within the elimination array.
+
+- If it is **`Waiting`** a `push` operation is currently waiting for a `pop`
+  operation. Thus the `pop` operation can try to `compare_and_set` the `Item` to
+  `Busy`. On success it is done and returns the `data` on failure it tries
+  another `Exchanger` within the elimination array.
+
+- If it is **`Busy`** a `push` operation successfully exchanged with another
+  `pop` operation and is just missing to do its final step. In that case our
+  `pop` operation should try another `Exchanger` within the elimination array.
+
+### Backing-off in space instead of time
+
+Steps of `push` and `pop` operations can fail on the elimination array due to
+too much contention or no contention. An example for the former would be a `pop`
+operation failing to `compare_and_set` an `Item` from `Waiting` to `Busy` due to
+another `pop` operation getting there first. On such contention one could
+back-off by exponentially waiting a bit. Instead operations on the elimination
+array back-off in space and not time. Backing-off in space instead of time
+enables the elimination back-off stack to be used by multiple operations in
+parallel. They do so by increasing the amount of `Exchanger`s they consider when
+randomly selecting one from the elimination array.
+
+> Backing-off in space instead of time enables the elimination back-off stack to
+> be used by multiple operations in **parallel**.
+
+For example at first a `pop` operation that failed on the lock-free stack
+selects one out of the two first exchangers of the elimination array. If it
+fails on that `Exchanger` due to contention it selects one out of the four first
+exchangers of the elimination array.
+
+### Liveness
+
+To ensure a `push` operation does not starve waiting for a `pop` operation, or a
+`pop` operation unsuccessfully looking for a `push` operation on different
+`Exchanger`s, they should first of all decrease the amount of `Exchanger`s they
+consider out of all the `Exchanger`s when witnessing missing contention. Second
+of all operations should eventually try the lock-free stack again, given that
+with low contention they will likely succeed on it directly.
+
+
+## Conclusion
+
+Combining a lock-free stack with an elimination array results in a *lock-free*
+*linearizable* and *parallel* stack. *Linearizable* as `push` and `pop`
+operations appear to take effect instantaneously for all threads at some moment
+between their invocation and response. *Parallel* due to the fact that multiple
+`push` and `pop` operations can *cancel* each other out on the elimination
+array.
 
 
 
