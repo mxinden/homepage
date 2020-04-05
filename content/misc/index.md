@@ -41,6 +41,9 @@ weight: 6
 - Kurose, J. F., & Ross, K. W. (2017). **Computer networking: a top-down
   approach** (Vol. 7). Boston, USA: Addison Wesley.
 
+- Herlihy, Maurice, and Nir Shavit. **The Art of Multiprocessor Programming**,
+  revised first edition. Morgan Kaufmann, 2012.
+
 - Kleppmann, M. (2017). **Designing data-intensive applications**: The big ideas
   behind reliable, scalable, and maintainable systems. " O'Reilly Media, Inc.".
 
