@@ -73,6 +73,9 @@ weight: 6
 - Beyer, B., Jones, C., Petoff, J., & Murphy, N. R. (2016). **Site Reliability
   Engineering: How Google Runs Production Systems**. " O'Reilly Media, Inc.".
 
+- Silberschatz, Abraham, Henry F. Korth, and Shashank Sudarshan. **Database
+  system concepts.** Vol. 7. New York: McGraw-Hill, 2019.
+
 
 ## Papers
 
