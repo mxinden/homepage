@@ -134,6 +134,9 @@ weight: 6
 - Shapiro, Marc, et al. **"A comprehensive study of convergent and commutative
   replicated data types."** (2011).
 
+- Cardwell, Neal, et al. **"BBR: Congestion-based congestion control."** Queue
+  14.5 (2016): 20-53.
+
 - Van Renesse, Robbert, et al. **"Efficient reconciliation and flow control for
   anti-entropy protocols."** proceedings of the 2nd Workshop on Large-Scale
   Distributed Systems and Middleware. ACM, 2008.
