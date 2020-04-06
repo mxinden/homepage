@@ -32,6 +32,11 @@ name = "Github"
 icon = "github"
 url = "https://github.com/mxinden"
 
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/mxinden"
+
 [[menu.main]]
 name = "Tags"
 url = "/tags"
