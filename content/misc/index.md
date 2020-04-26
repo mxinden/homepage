@@ -164,3 +164,6 @@ weight: 6
   weakly-consistent infection-style process group membership protocol."**
   Proceedings International Conference on Dependable Systems and Networks. IEEE,
   2002.
+
+- Bortnikov, Edward, et al. **"Brahms: Byzantine resilient random membership
+  sampling."** Computer Networks 53.13 (2009): 2340-2359.
