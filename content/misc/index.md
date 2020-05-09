@@ -137,12 +137,19 @@ weight: 6
 - Cardwell, Neal, et al. **"BBR: Congestion-based congestion control."** Queue
   14.5 (2016): 20-53.
 
+- Shreedhar, Madhavapeddi, and George Varghese. **"Efficient fair queuing using
+  deficit round-robin."** IEEE/ACM Transactions on networking 4.3 (1996):
+  375-385.
+
 - Van Renesse, Robbert, et al. **"Efficient reconciliation and flow control for
   anti-entropy protocols."** proceedings of the 2nd Workshop on Large-Scale
   Distributed Systems and Middleware. ACM, 2008.
 
 
 #### Peer to peer
+
+- Cohen, Bram. **"Incentives build robustness in BitTorrent."** Workshop on
+  Economics of Peer-to-Peer systems. Vol. 6. 2003.
 
 ##### Gossip / epidemic broadcast
 
