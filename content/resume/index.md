@@ -10,6 +10,12 @@ weight: 3
 
 **Software Engineer at Parity** | July 2019 - Present
 
+Maintaining Rust peer-to-peer networking library *libp2p* and its usage within
+the Blockchain framework *Substrate*. Involved in the networking logic of the main
+byzantine fault tolerant finality gadget *finality-grandpa*. Filling role of
+hiring manager for team building automated testing infrastructure. Shepherding
+(Prometheus) monitoring across the company.
+
 
 **Freelance Network Engineer at SpaceNet AG** | Jun 2019
 
@@ -68,7 +74,7 @@ maintanance, network architecture and software distribution.
 Tutoring Math, Physics, English and German. Mentoring and assisting with
 authorities.
 
-**Prometheus Core Member** | 2017 - current
+**Prometheus Core Member** | 2017 - 2020
 
 Member of the upstream core team of the open source monitoring tool
 _Prometheus_, developing and maintaining source code, representing the project
