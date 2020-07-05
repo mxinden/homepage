@@ -6,6 +6,21 @@ weight: 6
 
 # Projects & Achievements
 
+- _2020-06-19_ - Implement lookups over disjoint paths based on the extension
+  research paper
+  [S/Kademlia](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.68.4986&rep=rep1&type=pdf)
+  in the [Rust libp2p Kademlia
+  implementation](https://github.com/libp2p/rust-libp2p/pull/1473). (See as well
+  [libp2p forum
+  post](https://discuss.libp2p.io/t/s-kademlia-lookups-over-disjoint-paths-in-rust-libp2p/571)
+  including a summary and benchmarks.)
+
+- _2020-05-08_ - Maintainer of the [Rust Prometheus client
+  library](https://github.com/tikv/rust-prometheus/).
+
+- _2019-10-06_ - Maintainer of the [Rust libp2p
+  implementation](https://github.com/libp2p/rust-libp2p/).
+
 - _2019-01-16_ to _2019-08-02_ - Maintainer of [Kubernetes
   kube-state-metrics](https://github.com/kubernetes/kube-state-metrics).
 
