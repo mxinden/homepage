@@ -31,9 +31,12 @@ of magnitude.*
 | Main memory access                        | 120 ns    | [1]    |
 | **Microseconds**                          |           |        |
 | Kernel context switch                     | 1-2 μs    | [4]    |
+| Ping on localhost                         | 50 μs     | [1]    |
 | Solid-state disk I/O                      | 50–150 μs | [1]    |
+| Ping same subnet via 10 GBit              | 200 μs    | [1]    |
 | **Milliseconds**                          |           |        |
 | Rotational disk I/O                       | 1–10 ms   | [1]    |
+| Ping same subnet via Wifi                 | 3 ms      | [1]    |
 | Internet: San Francisco to New York       | 40 ms     | [1]    |
 | Internet: San Francisco to United Kingdom | 81 ms     | [1]    |
 | Internet: San Francisco to Australia      | 183 ms    | [1]    |
