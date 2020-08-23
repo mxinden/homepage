@@ -6,6 +6,11 @@ weight: 6
 
 # Projects & Achievements
 
+- _2020-07-14_ - Port partially lock-free Prometheus histogram implementation to
+  the [Prometheus Rust client
+  library](https://github.com/tikv/rust-prometheus/pull/314) making histogram
+  observe calls atomic across collect calls.
+
 - _2020-06-19_ - Implement lookups over disjoint paths based on the extension
   research paper
   [S/Kademlia](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.68.4986&rep=rep1&type=pdf)
