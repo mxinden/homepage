@@ -70,6 +70,9 @@ weight: 6
 - Klabnik, Steve, and Carol Nichols. **The Rust Programming Language**. No
   Starch Press, 2018.
 
+- Ferguson, Niels, Bruce Schneier, and Tadayoshi Kohno. "**Cryptography
+  engineering.**" Design Princi (2010).
+
 - Gregg, B. (2013). **Systems performance: enterprise and the cloud**. Pearson
   Education.
 
