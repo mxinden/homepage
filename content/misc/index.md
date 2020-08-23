@@ -70,11 +70,11 @@ weight: 6
 - Klabnik, Steve, and Carol Nichols. **The Rust Programming Language**. No
   Starch Press, 2018.
 
-- Tanenbaum, A. S., & Van Steen, M. (2017). **Distributed systems**: principles and
-  paradigms.
-
 - Gregg, B. (2013). **Systems performance: enterprise and the cloud**. Pearson
   Education.
+
+- Brady, Edwin. **Type-driven development with Idris**. Manning Publications
+  Company, 2017.
 
 - Cooper, Keith, and Linda Torczon. **Engineering a compiler**. Elsevier, 2011.
 
@@ -87,6 +87,9 @@ weight: 6
 - Grigorik, I. (2013). **High Performance Browser Networking**: What every web
   developer should know about networking and web performance. " O'Reilly Media,
   Inc.".
+
+- Tanenbaum, A. S., & Van Steen, M. (2017). **Distributed systems**: principles and
+  paradigms.
 
 - Love, R. (2005). **Linux Kernel Development** (Novell Press). Novell Press.
 
