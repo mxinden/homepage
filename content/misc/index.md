@@ -105,13 +105,25 @@ weight: 6
 
 ## Papers
 
-### Databases
+### Consensus
 
 - Howard, Heidi. (2018). **Distributed consensus revised.**
+
+- Yin, Maofan, et al. **"Hotstuff: Bft consensus in the lens of blockchain."**
+  arXiv preprint arXiv:1803.05069 (2018).
 
 - Fischer, Michael J., Nancy A. Lynch, and Michael S. Paterson. **Impossibility
   of distributed consensus with one faulty process.** No. MIT/LCS/TR-282.
   Massachusetts Inst of Tech Cambridge lab for Computer Science, 1982.
+
+- Castro, Miguel, and Barbara Liskov. **"Practical Byzantine fault tolerance."**
+  OSDI. Vol. 99. No. 1999. 1999.
+
+- Chan, Benjamin Y., and Elaine Shi. **"Streamlet: Textbook Streamlined
+  Blockchains."** IACR Cryptol. ePrint Arch. 2020 (2020): 88.
+
+
+### Databases
 
 - Levandoski, Justin J., David B. Lomet, and Sudipta Sengupta. **"The Bw-Tree: A
   B-tree for new hardware platforms."** 2013 IEEE 29th International Conference
@@ -179,6 +191,10 @@ weight: 6
 
 ##### Gossip / epidemic broadcast
 
+- Vyzovitis, Dimitris, et al. **"GossipSub: Attack-Resilient Message Propagation
+  in the Filecoin and ETH2. 0 Networks."** arXiv preprint arXiv:2007.02754
+  (2020).
+
 - Leitao, Joao, Jose Pereira, and Luis Rodrigues. **"Epidemic broadcast
   trees."** 2007 26th IEEE International Symposium on Reliable Distributed
   Systems (SRDS 2007). IEEE, 2007.
@@ -189,6 +205,10 @@ weight: 6
 - Maymounkov, Petar, and David Mazieres. **"Kademlia: A peer-to-peer information
   system based on the xor metric."** International Workshop on Peer-to-Peer
   Systems. Springer, Berlin, Heidelberg, 2002.
+
+- Baumgart, Ingmar, and Sebastian Mies. **"S/kademlia: A practicable approach
+  towards secure key-based routing."** 2007 International Conference on Parallel
+  and Distributed Systems. IEEE, 2007.
 
 
 ##### Membership protocol
