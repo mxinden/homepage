@@ -6,6 +6,10 @@ weight: 6
 
 # Projects & Achievements
 
+- _2020-07-19_ - Optimize metric encoding in [Prometheus Rust client
+  library](https://github.com/tikv/rust-prometheus/pull/327) drastically
+  reducing memory allocations in hot-path.
+
 - _2020-07-14_ - Port partially lock-free Prometheus histogram implementation to
   the [Prometheus Rust client
   library](https://github.com/tikv/rust-prometheus/pull/314) making histogram
