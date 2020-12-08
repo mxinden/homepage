@@ -67,6 +67,63 @@ Supporting the internal IT department in hardware
 maintanance, network architecture and software distribution.
 
 
+## Projects & Achievements
+
+- Optimize metric encoding in [Prometheus Rust client
+  library](https://github.com/tikv/rust-prometheus/pull/327) drastically
+  reducing memory allocations in hot-path (2020-07-19).
+
+- Port partially lock-free Prometheus histogram implementation to the
+  [Prometheus Rust client
+  library](https://github.com/tikv/rust-prometheus/pull/314) making histogram
+  observe calls atomic across collect calls (2020-07-14).
+
+- Implement lookups over disjoint paths based on the extension research paper
+  [S/Kademlia](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.68.4986&rep=rep1&type=pdf)
+  in the [Rust libp2p Kademlia
+  implementation](https://github.com/libp2p/rust-libp2p/pull/1473). See as well
+  [libp2p forum
+  post](https://discuss.libp2p.io/t/s-kademlia-lookups-over-disjoint-paths-in-rust-libp2p/571)
+  including a summary and benchmarks. (2020-06-19)
+
+- Maintainer of the [Rust Prometheus client
+  library](https://github.com/tikv/rust-prometheus/) (2020-05-08).
+
+- Maintainer of the [Rust libp2p
+  implementation](https://github.com/libp2p/rust-libp2p/) (2019-10-06).
+
+- Maintainer of [Kubernetes
+  kube-state-metrics](https://github.com/kubernetes/kube-state-metrics)
+  (2019-01-16_ to _2019-08-02).
+
+- Joining [Kubernetes
+  organisation](https://github.com/kubernetes/org/issues/364) (2019-01-15).
+
+- Kubernetes kube-state-metrics [performance
+  optimization](https://github.com/kubernetes/kube-state-metrics/issues/498)
+  dividing CPU usage by a factor of 6 and memory and response time by a factor
+  of 3 through introducing an intelligent Prometheus metric cache in the code
+  hot path and optimizing memory allocations during response generation
+  (2019-01-11).
+
+- Design, specification and implementation of a [new API
+  (v2)](https://github.com/prometheus/alertmanager/pull/1352) for Prometheus
+  Alertmanager, generated via
+  [OpenAPI](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md)
+  (2018-09-04).
+
+- Initiate and organize distributed systems book club covering distributed and
+  decentralized systems research and their real-world applications (2018-08-17).
+
+- Maintainer of [Prometheus
+  Alertmanager](https://github.com/prometheus/alertmanager) (2018-08-13 to
+  2020-01-06).
+
+- Part of [Prometheus
+  organisation](https://prometheus.io/governance/#team-members) (2017-11-12 to
+  2020-03-13).
+
+
 ## Volunteer & Extracurricular Work
 
 **Tutor and Mentor for Refugee Family** | 2018 - current
@@ -98,7 +155,6 @@ Administrator.
 
 ## Education
 
-
 **Bachelor at WWU Münster** | 2013 – 2016
 
 Bachelor of Applied Science (B.A.Sc.) in Information systems at the
@@ -124,18 +180,6 @@ factors that affect consumer behaviour.
 
 
 **Exchange year at Lugoff-Elgin High School SC USA** | 2010 - 2011
-
-
-
-
-## Technical Skills
-
-- **Languages**: Go, Ruby, elm, JavaScript (NodeJS, Coffee Script), Java (EE), SQL, MongoDB query
-language, Haskell, Shell Scripting, Swift
-
-- **Frameworks & Projects**: Kubernetes, Prometheus, Docker, git, LaTeX
-
-- **Systems**: Linux (Android), Unix, Windows
 
 
 ### Languages

@@ -4,60 +4,6 @@ menu: main
 weight: 6
 ---
 
-# Projects & Achievements
-
-- _2020-07-19_ - Optimize metric encoding in [Prometheus Rust client
-  library](https://github.com/tikv/rust-prometheus/pull/327) drastically
-  reducing memory allocations in hot-path.
-
-- _2020-07-14_ - Port partially lock-free Prometheus histogram implementation to
-  the [Prometheus Rust client
-  library](https://github.com/tikv/rust-prometheus/pull/314) making histogram
-  observe calls atomic across collect calls.
-
-- _2020-06-19_ - Implement lookups over disjoint paths based on the extension
-  research paper
-  [S/Kademlia](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.68.4986&rep=rep1&type=pdf)
-  in the [Rust libp2p Kademlia
-  implementation](https://github.com/libp2p/rust-libp2p/pull/1473). (See as well
-  [libp2p forum
-  post](https://discuss.libp2p.io/t/s-kademlia-lookups-over-disjoint-paths-in-rust-libp2p/571)
-  including a summary and benchmarks.)
-
-- _2020-05-08_ - Maintainer of the [Rust Prometheus client
-  library](https://github.com/tikv/rust-prometheus/).
-
-- _2019-10-06_ - Maintainer of the [Rust libp2p
-  implementation](https://github.com/libp2p/rust-libp2p/).
-
-- _2019-01-16_ to _2019-08-02_ - Maintainer of [Kubernetes
-  kube-state-metrics](https://github.com/kubernetes/kube-state-metrics).
-
-- _2019-01-15_ - Joining [Kubernetes
-  organisation](https://github.com/kubernetes/org/issues/364).
-
-- _2019-01-11_ - Kubernetes kube-state-metrics [performance
-  optimization](https://github.com/kubernetes/kube-state-metrics/issues/498)
-  dividing CPU usage by a factor of 6 and memory and response time by a factor
-  of 3 through introducing an intelligent Prometheus metric cache in the code
-  hot path and optimizing memory allocations during response generation.
-
-- _2018-09-04_ - Design, specification and implementation of a [new API
-  (v2)](https://github.com/prometheus/alertmanager/pull/1352) for Prometheus
-  Alertmanager, generated via
-  [OpenAPI](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md).
-
-- _2018-08-17_ - Initiate and organize distributed systems book club covering
-  distributed and decentralized systems research and their real-world
-  applications.
-
-- _2018-08-13_ to _2020-01-06_ - Maintainer of [Prometheus
-  Alertmanager](https://github.com/prometheus/alertmanager).
-
-- _2017-11-12_ to _2020-03-13_ - Part of [Prometheus
-  organisation](https://prometheus.io/governance/#team-members).
-
-
 # Resources worth sharing
 
 ## Books
@@ -120,8 +66,14 @@ weight: 6
   of distributed consensus with one faulty process.** No. MIT/LCS/TR-282.
   Massachusetts Inst of Tech Cambridge lab for Computer Science, 1982.
 
+- Nakamoto, Satoshi. Bitcoin: **A peer-to-peer electronic cash system**.
+  Manubot, 2019.
+
 - Castro, Miguel, and Barbara Liskov. **"Practical Byzantine fault tolerance."**
   OSDI. Vol. 99. No. 1999. 1999.
+
+- Miller, Andrew, et al. **"The honey badger of BFT protocols."** Proceedings of
+  the 2016 ACM SIGSAC Conference on Computer and Communications Security. 2016.
 
 - Chan, Benjamin Y., and Elaine Shi. **"Streamlet: Textbook Streamlined
   Blockchains."** IACR Cryptol. ePrint Arch. 2020 (2020): 88.
