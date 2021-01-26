@@ -2,6 +2,7 @@
 title: Misc
 menu: main
 weight: 6
+type: "page"
 ---
 
 # Resources worth sharing
@@ -131,6 +132,9 @@ weight: 6
 - Cardwell, Neal, et al. **"BBR: Congestion-based congestion control."** Queue
   14.5 (2016): 20-53.
 
+- Malhotra, Aanchal, et al. **"Attacking the Network Time Protocol."** NDSS.
+  2016.
+
 - Shreedhar, Madhavapeddi, and George Varghese. **"Efficient fair queuing using
   deficit round-robin."** IEEE/ACM Transactions on networking 4.3 (1996):
   375-385.
@@ -176,3 +180,10 @@ weight: 6
 
 - Bortnikov, Edward, et al. **"Brahms: Byzantine resilient random membership
   sampling."** Computer Networks 53.13 (2009): 2340-2359.
+
+
+### Programming
+
+- Hughes, John. **"QuickCheck testing for fun and profit."** International
+  Symposium on Practical Aspects of Declarative Languages. Springer, Berlin,
+  Heidelberg, 2007.
