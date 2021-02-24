@@ -94,7 +94,7 @@ maintanance, network architecture and software distribution.
 
 - Maintainer of [Kubernetes
   kube-state-metrics](https://github.com/kubernetes/kube-state-metrics)
-  (2019-01-16_ to _2019-08-02).
+  (2019-01-16 to 2019-08-02).
 
 - Joining [Kubernetes
   organisation](https://github.com/kubernetes/org/issues/364) (2019-01-15).
