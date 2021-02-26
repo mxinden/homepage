@@ -38,6 +38,9 @@ type: "page"
 - Lipovaca, M. (2011). **Learn you a haskell for great good!**: a beginner's
   guide. no starch press.
 
+- Graham Hutton. 2016. **Programming in Haskell** (2nd. ed.). Cambridge
+  University Press, USA.
+
 - Grigorik, I. (2013). **High Performance Browser Networking**: What every web
   developer should know about networking and web performance. " O'Reilly Media,
   Inc.".
