@@ -69,6 +69,10 @@ maintanance, network architecture and software distribution.
 
 ## Projects & Achievements
 
+- Increase Yamux throughput with [improved flow-control
+  strategy](https://discuss.libp2p.io/t/optimizing-yamux-flow-control-sending-window-update-frames-early/843/1)
+  measuring a performance increase of 25% in the wild (2021-02-11).
+
 - Optimize metric encoding in [Prometheus Rust client
   library](https://github.com/tikv/rust-prometheus/pull/327) drastically
   reducing memory allocations in hot-path (2020-07-19).
