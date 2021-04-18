@@ -8,7 +8,9 @@ weight: 3
 
 ## Experience
 
-**Software Engineer at Parity** | July 2019 - Present
+**Software Engineer at Protocol Labs** | March 2021 - Present
+
+**Software Engineer at Parity** | July 2019 - February 2021
 
 Maintaining Rust peer-to-peer networking library *libp2p* and its usage within
 the Blockchain framework *Substrate*. Involved in the networking logic of the main
