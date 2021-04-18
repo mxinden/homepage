@@ -138,8 +138,16 @@ type: "page"
 - Malhotra, Aanchal, et al. **"Attacking the Network Time Protocol."** NDSS.
   2016.
 
+- Birge-Lee, Henry, et al. **"Sico: Surgical interception attacks by
+  manipulating bgp communities."** Proceedings of the 2019 ACM SIGSAC Conference
+  on Computer and Communications Security. 2019.
+
 - Gao, Lixin, and Jennifer Rexford. **"Stable Internet routing without global
   coordination."** IEEE/ACM Transactions on networking 9.6 (2001): 681-692.
+
+- Gray, Caitlin, et al. **"BGP Beacons, Network Tomography, and Bayesian
+  Computation to Locate Route Flap Damping."** Proceedings of the ACM Internet
+  Measurement Conference. 2020.
 
 - Shreedhar, Madhavapeddi, and George Varghese. **"Efficient fair queuing using
   deficit round-robin."** IEEE/ACM Transactions on networking 4.3 (1996):
