@@ -27,6 +27,10 @@ type: "page"
 - Gregg, B. (2013). **Systems performance: enterprise and the cloud**. Pearson
   Education.
 
+- John L. Hennessy and David A. Patterson. 2017. **Computer Architecture, Sixth
+  Edition: A Quantitative Approach** (6th. ed.). Morgan Kaufmann Publishers
+  Inc., San Francisco, CA, USA.
+
 - Brady, Edwin. **Type-driven development with Idris**. Manning Publications
   Company, 2017.
 
@@ -134,6 +138,9 @@ type: "page"
 
 - Cardwell, Neal, et al. **"BBR: Congestion-based congestion control."** Queue
   14.5 (2016): 20-53.
+
+- Piotrowska, Ania M., et al. **"The loopix anonymity system."** 26th {USENIX}
+  Security Symposium ({USENIX} Security 17). 2017.
 
 - Malhotra, Aanchal, et al. **"Attacking the Network Time Protocol."** NDSS.
   2016.
