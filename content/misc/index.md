@@ -142,6 +142,9 @@ type: "page"
 - Piotrowska, Ania M., et al. **"The loopix anonymity system."** 26th {USENIX}
   Security Symposium ({USENIX} Security 17). 2017.
 
+- Diaz, Claudia, Harry Halpin, and Aggelos Kiayias. **"The Nym Network."**
+  (2021).
+
 - Malhotra, Aanchal, et al. **"Attacking the Network Time Protocol."** NDSS.
   2016.
 
