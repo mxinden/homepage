@@ -139,6 +139,12 @@ type: "page"
 - Cardwell, Neal, et al. **"BBR: Congestion-based congestion control."** Queue
   14.5 (2016): 20-53.
 
+- Carpenter, Brian, ed. **"RFC1958: Architectural principles of the Internet."**
+  (1996).
+
+- Bush, Randy, and David Meyer. **"RFC3439: Some internet architectural
+  guidelines and philosophy."** (2002).
+
 - Jennings, Cullen, et al. **"Resource location and discovery (reload) base
   protocol."** REsource (2014).
 
