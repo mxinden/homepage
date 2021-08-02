@@ -139,6 +139,9 @@ type: "page"
 - Cardwell, Neal, et al. **"BBR: Congestion-based congestion control."** Queue
   14.5 (2016): 20-53.
 
+- Jennings, Cullen, et al. **"Resource location and discovery (reload) base
+  protocol."** REsource (2014).
+
 - Piotrowska, Ania M., et al. **"The loopix anonymity system."** 26th {USENIX}
   Security Symposium ({USENIX} Security 17). 2017.
 
