@@ -10,6 +10,9 @@ weight: 3
 
 **Software Engineer at Protocol Labs** | March 2021 - Present
 
+Steward of the [libp2p](https://libp2p.io/) project and maintainer of the [Rust
+libp2p implementation](https://github.com/libp2p/rust-libp2p/).
+
 **Software Engineer at Parity** | July 2019 - February 2021
 
 Maintaining Rust peer-to-peer networking library *libp2p* and its usage within
