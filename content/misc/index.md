@@ -60,6 +60,9 @@ type: "page"
 - Beyer, B., Jones, C., Petoff, J., & Murphy, N. R. (2016). **Site Reliability
   Engineering: How Google Runs Production Systems**. " O'Reilly Media, Inc.".
 
+- Armstrong, Joe. **Programming Erlang: software for a concurrent world**.
+  Pragmatic Bookshelf, 2013.
+
 - Silberschatz, Abraham, Henry F. Korth, and Shashank Sudarshan. **Database
   system concepts.** Vol. 7. New York: McGraw-Hill, 2019.
 
