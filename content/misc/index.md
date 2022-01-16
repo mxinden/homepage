@@ -34,16 +34,19 @@ type: "page"
 - Brady, Edwin. **Type-driven development with Idris**. Manning Publications
   Company, 2017.
 
-- Cooper, Keith, and Linda Torczon. **Engineering a compiler**. Elsevier, 2011.
-
-- Cox-Buday, Katherine. **Concurrency in Go: Tools and Techniques for
-  Developers.** " O'Reilly Media, Inc.", 2017.
-
 - Lipovaca, M. (2011). **Learn you a haskell for great good!**: a beginner's
   guide. no starch press.
 
 - Graham Hutton. 2016. **Programming in Haskell** (2nd. ed.). Cambridge
   University Press, USA.
+
+- Abelson, Harold, and Gerald Jay Sussman. **Structure and interpretation of
+  computer programs**. The MIT Press, 1996.
+
+- Cooper, Keith, and Linda Torczon. **Engineering a compiler**. Elsevier, 2011.
+
+- Cox-Buday, Katherine. **Concurrency in Go: Tools and Techniques for
+  Developers.** " O'Reilly Media, Inc.", 2017.
 
 - Grigorik, I. (2013). **High Performance Browser Networking**: What every web
   developer should know about networking and web performance. " O'Reilly Media,
