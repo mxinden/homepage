@@ -71,6 +71,13 @@ maintanance, network architecture and software distribution.
 
 ## Projects & Achievements
 
+- Creator and maintainer of [Prometheus Rust client
+  library](https://github.com/prometheus/client_rust) (2022-01-16).
+
+- Part of [Prometheus
+  organisation](https://prometheus.io/governance/#team-members) (2022-01-16)
+  (again).
+
 - Increase Yamux throughput with [improved flow-control
   strategy](https://discuss.libp2p.io/t/optimizing-yamux-flow-control-sending-window-update-frames-early/843/1)
   measuring a performance increase of 25% in the wild (2021-02-11).
