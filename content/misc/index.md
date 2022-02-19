@@ -40,6 +40,9 @@ type: "page"
 - Graham Hutton. 2016. **Programming in Haskell** (2nd. ed.). Cambridge
   University Press, USA.
 
+- Friedman, Daniel P., and Matthias Felleisen. **The Little Schemer**. MIT
+  Press, 1995.
+
 - Abelson, Harold, and Gerald Jay Sussman. **Structure and interpretation of
   computer programs**. The MIT Press, 1996.
 
