@@ -74,6 +74,9 @@ maintanance, network architecture and software distribution.
 
 ## Projects & Achievements
 
+- Implement [decentralized hole punching in
+  rust-libp2p](https://github.com/libp2p/rust-libp2p/issues/2052) (2022-02-09).
+
 - Creator and maintainer of [Prometheus Rust client
   library](https://github.com/prometheus/client_rust) (2022-01-16).
 
