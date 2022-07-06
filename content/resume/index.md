@@ -77,22 +77,18 @@ maintanance, network architecture and software distribution.
 - Implement [decentralized hole punching in
   rust-libp2p](https://github.com/libp2p/rust-libp2p/issues/2052) (2022-02-09).
 
-- Creator and maintainer of [Prometheus Rust client
+- Creator and maintainer of official [Prometheus Rust client
   library](https://github.com/prometheus/client_rust) (2022-01-16).
-
-- Part of [Prometheus
-  organisation](https://prometheus.io/governance/#team-members) (2022-01-16)
-  (again).
 
 - Increase Yamux throughput with [improved flow-control
   strategy](https://discuss.libp2p.io/t/optimizing-yamux-flow-control-sending-window-update-frames-early/843/1)
   measuring a performance increase of 25% in the wild (2021-02-11).
 
-- Optimize metric encoding in [Prometheus Rust client
+- Optimize metric encoding in community [Prometheus Rust client
   library](https://github.com/tikv/rust-prometheus/pull/327) drastically
   reducing memory allocations in hot-path (2020-07-19).
 
-- Port partially lock-free Prometheus histogram implementation to the
+- Port partially lock-free Prometheus histogram implementation to the community
   [Prometheus Rust client
   library](https://github.com/tikv/rust-prometheus/pull/314) making histogram
   observe calls atomic across collect calls (2020-07-14).
@@ -105,7 +101,7 @@ maintanance, network architecture and software distribution.
   post](https://discuss.libp2p.io/t/s-kademlia-lookups-over-disjoint-paths-in-rust-libp2p/571)
   including a summary and benchmarks. (2020-06-19)
 
-- Maintainer of the [Rust Prometheus client
+- Maintainer of the community [Rust Prometheus client
   library](https://github.com/tikv/rust-prometheus/) (2020-05-08).
 
 - Maintainer of the [Rust libp2p
@@ -138,10 +134,6 @@ maintanance, network architecture and software distribution.
   Alertmanager](https://github.com/prometheus/alertmanager) (2018-08-13 to
   2020-01-06).
 
-- Part of [Prometheus
-  organisation](https://prometheus.io/governance/#team-members) (2017-11-12 to
-  2020-03-13).
-
 
 ## Volunteer & Extracurricular Work
 
@@ -150,7 +142,7 @@ maintanance, network architecture and software distribution.
 Tutoring Math, Physics, English and German. Mentoring and assisting with
 authorities.
 
-**Prometheus Core Member** | 2017 - 2020
+**Prometheus Core Member** | 2017 - 2020 and 2022 - now
 
 Member of the upstream core team of the open source monitoring tool
 _Prometheus_, developing and maintaining source code, representing the project
