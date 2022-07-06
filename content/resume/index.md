@@ -8,7 +8,7 @@ weight: 3
 
 ## Experience
 
-**Software Engineer at Protocol Labs** | March 2021 - Present
+**Software Engineer at Protocol Labs** | March 2021 - Now
 
 Steward of the [libp2p](https://libp2p.io/) project and maintainer of the [Rust
 libp2p implementation](https://github.com/libp2p/rust-libp2p/).
@@ -137,23 +137,23 @@ maintanance, network architecture and software distribution.
 
 ## Volunteer & Extracurricular Work
 
-**Tutor and Mentor for Refugee Family** | 2018 - current
+**Tutor and Mentor for Refugee Family** | 2018 - 2022
 
 Tutoring Math, Physics, English and German. Mentoring and assisting with
 authorities.
 
-**Prometheus Core Member** | 2017 - 2020 and 2022 - now
+**Prometheus Core Member** | 2017 - 2020 and 2022 - Now
 
 Member of the upstream core team of the open source monitoring tool
 _Prometheus_, developing and maintaining source code, representing the project
 at tech-conferences and helping adoption in user communities.
 
-**Informationsdienst Umweltrecht e.V.** | 2015 - current
+**Informationsdienst Umweltrecht e.V.** | 2015 - 2021
 
 Administrator for the non-profit _Informationsdienst Umweltrecht e.V._ for
 their online presence.
 
-**(Certified) Ski Instructor** | 2017 - current
+**(Certified) Ski Instructor** | 2017 - Now
 
 **Student Council** | 2013 -2016
 
