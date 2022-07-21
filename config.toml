@@ -39,10 +39,10 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "resume"
   url = "/resume"
 [[menu.main]]             # config your menu              # 配置目录
-  name = "Misc"
+  name = "Readings"
   weight = 11
-  identifier = "misc"
-  url = "/misc"
+  identifier = "readings"
+  url = "/readings"
 [[menu.main]]             # config your menu              # 配置目录
   name = "Talks"
   weight = 11

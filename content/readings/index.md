@@ -1,57 +1,14 @@
 ---
-title: Misc
+title: Readings
 type: post
 ---
 
-# Resources worth sharing
+## General
 
-## Books
-
-- Kurose, J. F., & Ross, K. W. (2017). **Computer networking: a top-down
-  approach** (Vol. 7). Boston, USA: Addison Wesley.
-
-- Herlihy, Maurice, and Nir Shavit. **The Art of Multiprocessor Programming**,
-  revised first edition. Morgan Kaufmann, 2012.
-
-- Kleppmann, M. (2017). **Designing data-intensive applications**: The big ideas
-  behind reliable, scalable, and maintainable systems. " O'Reilly Media, Inc.".
-
-- Klabnik, Steve, and Carol Nichols. **The Rust Programming Language**. No
-  Starch Press, 2018.
-
-- Ferguson, Niels, Bruce Schneier, and Tadayoshi Kohno. "**Cryptography
-  engineering.**" Design Princi (2010).
+Books
 
 - Gregg, B. (2013). **Systems performance: enterprise and the cloud**. Pearson
   Education.
-
-- John L. Hennessy and David A. Patterson. 2017. **Computer Architecture, Sixth
-  Edition: A Quantitative Approach** (6th. ed.). Morgan Kaufmann Publishers
-  Inc., San Francisco, CA, USA.
-
-- Brady, Edwin. **Type-driven development with Idris**. Manning Publications
-  Company, 2017.
-
-- Lipovaca, M. (2011). **Learn you a haskell for great good!**: a beginner's
-  guide. no starch press.
-
-- Graham Hutton. 2016. **Programming in Haskell** (2nd. ed.). Cambridge
-  University Press, USA.
-
-- Friedman, Daniel P., and Matthias Felleisen. **The Little Schemer**. MIT
-  Press, 1995.
-
-- Abelson, Harold, and Gerald Jay Sussman. **Structure and interpretation of
-  computer programs**. The MIT Press, 1996.
-
-- Cooper, Keith, and Linda Torczon. **Engineering a compiler**. Elsevier, 2011.
-
-- Cox-Buday, Katherine. **Concurrency in Go: Tools and Techniques for
-  Developers.** " O'Reilly Media, Inc.", 2017.
-
-- Grigorik, I. (2013). **High Performance Browser Networking**: What every web
-  developer should know about networking and web performance. " O'Reilly Media,
-  Inc.".
 
 - Tanenbaum, A. S., & Van Steen, M. (2017). **Distributed systems**: principles and
   paradigms.
@@ -61,16 +18,9 @@ type: post
 - Beyer, B., Jones, C., Petoff, J., & Murphy, N. R. (2016). **Site Reliability
   Engineering: How Google Runs Production Systems**. " O'Reilly Media, Inc.".
 
-- Armstrong, Joe. **Programming Erlang: software for a concurrent world**.
-  Pragmatic Bookshelf, 2013.
+## Consensus
 
-- Silberschatz, Abraham, Henry F. Korth, and Shashank Sudarshan. **Database
-  system concepts.** Vol. 7. New York: McGraw-Hill, 2019.
-
-
-## Papers
-
-### Consensus
+Papers
 
 - Howard, Heidi. (2018). **Distributed consensus revised.**
 
@@ -93,8 +43,24 @@ type: post
 - Chan, Benjamin Y., and Elaine Shi. **"Streamlet: Textbook Streamlined
   Blockchains."** IACR Cryptol. ePrint Arch. 2020 (2020): 88.
 
+## Cryptography
 
-### Databases
+Books
+
+- Ferguson, Niels, Bruce Schneier, and Tadayoshi Kohno. "**Cryptography
+  engineering.**" Design Princi (2010).
+
+## Databases
+
+Books
+
+- Kleppmann, M. (2017). **Designing data-intensive applications**: The big ideas
+  behind reliable, scalable, and maintainable systems. " O'Reilly Media, Inc.".
+
+- Silberschatz, Abraham, Henry F. Korth, and Shashank Sudarshan. **Database
+  system concepts.** Vol. 7. New York: McGraw-Hill, 2019.
+
+Papers
 
 - Levandoski, Justin J., David B. Lomet, and Sudipta Sengupta. **"The Bw-Tree: A
   B-tree for new hardware platforms."** 2013 IEEE 29th International Conference
@@ -104,8 +70,9 @@ type: post
   partitioned database systems."** Proceedings of the 2012 ACM SIGMOD
   International Conference on Management of Data. ACM, 2012.
 
+## Lock-free data structures
 
-### Lock-free data structures
+Papers
 
 - Hendler, Danny, Nir Shavit, and Lena Yerushalmi. **"A scalable lock-free stack
   algorithm."** Proceedings of the sixteenth annual ACM symposium on Parallelism
@@ -122,16 +89,36 @@ type: post
   synchronization: Double-ended queues as an example."** 23rd International
   Conference on Distributed Computing Systems, 2003. Proceedings.. IEEE, 2003.
 
+## Hardware synchronization
 
-### Hardware synchronization
+Books
+
+- Herlihy, Maurice, and Nir Shavit. **The Art of Multiprocessor Programming**,
+  revised first edition. Morgan Kaufmann, 2012.
+
+- John L. Hennessy and David A. Patterson. 2017. **Computer Architecture, Sixth
+  Edition: A Quantitative Approach** (6th. ed.). Morgan Kaufmann Publishers
+  Inc., San Francisco, CA, USA.
+
+Papers
 
 - David, Tudor, Rachid Guerraoui, and Vasileios Trigonakis. **"Everything you
   always wanted to know about synchronization but were afraid to ask."**
   Proceedings of the Twenty-Fourth ACM Symposium on Operating Systems
   Principles. ACM, 2013.
 
+## Networking
 
-### Networking
+Books
+
+- Kurose, J. F., & Ross, K. W. (2017). **Computer networking: a top-down
+  approach** (Vol. 7). Boston, USA: Addison Wesley.
+
+- Grigorik, I. (2013). **High Performance Browser Networking**: What every web
+  developer should know about networking and web performance. " O'Reilly Media,
+  Inc.".
+
+Papers
 
 - Lamport, Leslie. **"Time, clocks, and the ordering of events in a distributed
   system."** Communications of the ACM 21.7 (1978): 558-565.
@@ -183,13 +170,16 @@ type: post
   anti-entropy protocols."** proceedings of the 2nd Workshop on Large-Scale
   Distributed Systems and Middleware. ACM, 2008.
 
+### Peer to peer
 
-#### Peer to peer
+Papers
 
 - Cohen, Bram. **"Incentives build robustness in BitTorrent."** Workshop on
   Economics of Peer-to-Peer systems. Vol. 6. 2003.
 
-##### Gossip / epidemic broadcast
+#### Gossip / epidemic broadcast
+
+Papers
 
 - Vyzovitis, Dimitris, et al. **"GossipSub: Attack-Resilient Message Propagation
   in the Filecoin and ETH2. 0 Networks."** arXiv preprint arXiv:2007.02754
@@ -199,8 +189,9 @@ type: post
   trees."** 2007 26th IEEE International Symposium on Reliable Distributed
   Systems (SRDS 2007). IEEE, 2007.
 
+#### Distributed hash table
 
-##### Distributed hash table
+Papers
 
 - Maymounkov, Petar, and David Mazieres. **"Kademlia: A peer-to-peer information
   system based on the xor metric."** International Workshop on Peer-to-Peer
@@ -210,8 +201,9 @@ type: post
   towards secure key-based routing."** 2007 International Conference on Parallel
   and Distributed Systems. IEEE, 2007.
 
+#### Membership protocol
 
-##### Membership protocol
+Papers
 
 - Das, Abhinandan, Indranil Gupta, and Ashish Motivala. **"Swim: Scalable
   weakly-consistent infection-style process group membership protocol."**
@@ -221,8 +213,37 @@ type: post
 - Bortnikov, Edward, et al. **"Brahms: Byzantine resilient random membership
   sampling."** Computer Networks 53.13 (2009): 2340-2359.
 
+## Programming Languages
 
-### Programming
+Books
+
+- Klabnik, Steve, and Carol Nichols. **The Rust Programming Language**. No
+  Starch Press, 2018.
+
+- Brady, Edwin. **Type-driven development with Idris**. Manning Publications
+  Company, 2017.
+
+- Lipovaca, M. (2011). **Learn you a haskell for great good!**: a beginner's
+  guide. no starch press.
+
+- Graham Hutton. 2016. **Programming in Haskell** (2nd. ed.). Cambridge
+  University Press, USA.
+
+- Friedman, Daniel P., and Matthias Felleisen. **The Little Schemer**. MIT
+  Press, 1995.
+
+- Abelson, Harold, and Gerald Jay Sussman. **Structure and interpretation of
+  computer programs**. The MIT Press, 1996.
+
+- Cooper, Keith, and Linda Torczon. **Engineering a compiler**. Elsevier, 2011.
+
+- Cox-Buday, Katherine. **Concurrency in Go: Tools and Techniques for
+  Developers.** " O'Reilly Media, Inc.", 2017.
+
+- Armstrong, Joe. **Programming Erlang: software for a concurrent world**.
+  Pragmatic Bookshelf, 2013.
+
+Papers
 
 - Hughes, John. **"QuickCheck testing for fun and profit."** International
   Symposium on Practical Aspects of Declarative Languages. Springer, Berlin,
