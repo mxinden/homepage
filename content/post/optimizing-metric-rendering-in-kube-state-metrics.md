@@ -1,7 +1,7 @@
 ---
 date: 2019-05-22T00:00:00Z
-title: Optimizing Metric Rendering in kube-state-metrics
-type: "posts"
+title: Talk Optimizing Metric Rendering in kube-state-metrics
+tags: [talk]
 ---
 
 Kube-state-metrics exposes Prometheus metrics of the state of a given Kubernetes

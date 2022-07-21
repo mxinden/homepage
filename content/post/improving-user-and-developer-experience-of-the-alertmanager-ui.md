@@ -1,7 +1,7 @@
 ---
 date: 2017-08-18
-title: Improving user and developer experience of the Alertmanager UI
-type: "posts"
+title: Talk Improving user and developer experience of the Alertmanager UI
+tags: [talk]
 ---
 
 Alertmanager deduplicates, groups, and routes alerts from Prometheus to all kinds of paging services. With it comes a dated UI which does not live up to the expectations of the users, nor does it attract new contributors.

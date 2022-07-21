@@ -1,7 +1,7 @@
 ---
 date: 2021-07-20
-title: Intro to libp2p
-type: "posts"
+title: Talk Intro to libp2p
+tags: [talk]
 ---
 
 On Tuesday 20th of July I gave a talk introducing [libp2p](https://libp2p.io/),

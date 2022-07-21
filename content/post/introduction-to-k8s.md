@@ -1,7 +1,7 @@
 ---
 date: 2017-08-19
-title: Intro to Kubernetes
-type: "posts"
+title: Talk Intro to Kubernetes
+tags: [talk]
 ---
 
 Distributing and deploying software inside (Docker-) containers for security,

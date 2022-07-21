@@ -1,8 +1,7 @@
 ---
 date: 2017-10-22T00:00:00Z
-title: Self-healing Kubernetes
-type: "posts"
-tags: [tech]
+title: Talk Self-healing Kubernetes
+tags: [tech, talk]
 ---
 What If Component xxx Dies? Introducing Self-Healing Kubernetes
 

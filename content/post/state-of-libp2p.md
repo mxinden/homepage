@@ -1,7 +1,7 @@
 ---
 date: 2022-02-06
-title: State of libp2p
-type: "posts"
+title: Talk State of libp2p
+tags: [tech, talk]
 ---
 
 Gave a talk on the state of libp2p at FOSDEM 2022.

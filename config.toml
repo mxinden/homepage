@@ -43,11 +43,6 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 11
   identifier = "readings"
   url = "/readings"
-[[menu.main]]             # config your menu              # 配置目录
-  name = "Talks"
-  weight = 11
-  identifier = "talks"
-  url = "/talks"
 [[menu.main]]
   name = "Archive"
   weight = 20
