@@ -19,3 +19,5 @@ resume](/resume) to see what I am up to lately.
 You can best reach me via e-mail: mail@max-inden.de.
 
 GPG Fingerprint: `080694E5D36410B9C9B62185779B0E427AFE5ABB`
+
+![Profile](/static/profile.JPG)
