@@ -2,7 +2,7 @@
 date: 2020-01-28T00:00:00Z
 tags: [tech, paper, distributed-systems]
 title: 22nd Distributed Systems Paper Club
-type: "posts"
+
 ---
 
 In the 22nd session we took a look at `io_uring` - a new Kernel interface for

@@ -1,8 +1,6 @@
 ---
 title: Misc
-menu: main
-weight: 6
-type: "page"
+type: post
 ---
 
 # Resources worth sharing

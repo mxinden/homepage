@@ -2,7 +2,7 @@
 date: 2021-02-24T00:00:00Z
 tags: [tech, paper, distributed-systems, bgp, internet, routing]
 title: 31st DistSys Reading Group - BGP 1
-type: "posts"
+
 ---
 
 We decided to turn our interest to BGP which we will devote 3 sessions to. In

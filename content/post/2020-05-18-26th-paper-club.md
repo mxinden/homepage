@@ -2,7 +2,7 @@
 date: 2020-05-18T00:00:00Z
 tags: [tech, paper, distributed-systems, CPU, cache]
 title: 26th DistSys Reading Group - Cache coherence
-type: "posts"
+
 ---
 
 We have long been planning to cover the caching mechanisms in CPUs. As a shared

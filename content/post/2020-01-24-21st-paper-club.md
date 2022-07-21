@@ -2,7 +2,7 @@
 date: 2020-01-24T00:00:00Z
 tags: [tech, paper, distributed-systems, epidemic, gossip, protocol]
 title: 21st Distributed Systems Paper Club
-type: "posts"
+
 ---
 
 We started the new year with a session on *epidemic* / *gossip* protocols. To

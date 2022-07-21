@@ -1,8 +1,5 @@
 ---
 title: Resume
-author: Max Leonard Inden
-menu: main
-weight: 3
 ---
 
 

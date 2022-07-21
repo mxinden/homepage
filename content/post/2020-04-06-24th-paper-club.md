@@ -2,7 +2,7 @@
 date: 2020-04-06T00:00:00Z
 tags: [tech, paper, distributed-systems, networking, congestion-control]
 title: 24th DistSys Reading Group - BBR Congestion-Based Congestion Control
-type: "posts"
+
 ---
 
 

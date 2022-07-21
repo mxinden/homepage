@@ -2,7 +2,7 @@
 date: 2020-09-08T00:00:00Z
 tags: [tech, paper, distributed-systems, consensus, blockchain, byzantine]
 title: 28th DistSys Reading Group - Hotstuff
-type: "posts"
+
 ---
 
 With the 28th session we jumped into the space of byzantine fault tolerant

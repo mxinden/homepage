@@ -2,7 +2,7 @@
 date: 2020-03-14T00:00:00Z
 tags: [prometheus]
 title: Leaving the Prometheus team
-type: "posts"
+
 ---
 
 In January 2017 I joined the company CoreOS as a test-engineer helping the

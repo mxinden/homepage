@@ -2,7 +2,7 @@
 date: 2021-04-12T00:00:00Z
 tags: [tech, paper, distributed-systems, bgp, internet, routing, security]
 title: 33rd DistSys Reading Group - BGP 3
-type: "posts"
+
 ---
 
 In our third BGP session we focused on BGP security, more specifically we

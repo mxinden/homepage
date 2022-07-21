@@ -2,7 +2,6 @@
 date: 2021-03-07T00:00:00Z
 tags: [tech, networking, TCP, congestion-control]
 title: Optimizing Yamux Flow Control - Sending Window Update Frames Early
-type: "posts"
 ---
 
 Below is a summary of our efforts to optimize flow control in the [Rust Yamux

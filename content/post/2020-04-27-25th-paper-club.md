@@ -2,7 +2,7 @@
 date: 2020-04-27T00:00:00Z
 tags: [tech, paper, distributed-systems, networking, queuing]
 title: 25th DistSys Reading Group - Fair queuing
-type: "posts"
+
 ---
 
 In the session today we covered Madhavapeddi Shreedhar and George Varghese paper

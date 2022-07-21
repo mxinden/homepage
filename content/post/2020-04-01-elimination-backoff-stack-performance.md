@@ -2,7 +2,7 @@
 date: 2020-04-01T00:00:00Z
 tags: [tech, paper, lock-free, multithreaded, concurrent, rust, crossbeam]
 title:  Elimination back-off stack performance
-type: "posts"
+
 ---
 
 ![All stacks from 1 thread to up to 128](/static/elimination-back-off-stack/lines.svg)

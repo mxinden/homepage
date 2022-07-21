@@ -2,7 +2,7 @@
 date: 2021-02-17T00:00:00Z
 tags: []
 title: New GPG Key
-type: "posts"
+
 ---
 
 I have created a new GPG key replacing my old GPG key. I did not loose access to

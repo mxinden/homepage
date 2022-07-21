@@ -2,7 +2,7 @@
 date: 2020-06-19T00:00:00Z
 tags: [tech, CPU, cache, networking, performance]
 title: Know your latencies
-type: "posts"
+
 ---
 
 I find it helpful to know the orders of magnitude by which certain computer

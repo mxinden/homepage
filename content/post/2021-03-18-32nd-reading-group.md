@@ -2,7 +2,7 @@
 date: 2021-03-18T00:00:00Z
 tags: [tech, paper, distributed-systems, bgp, internet, routing]
 title: 32nd DistSys Reading Group - BGP 2
-type: "posts"
+
 ---
 
 After our first BGP session, introducing the protocol based on the convergence

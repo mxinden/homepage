@@ -2,7 +2,7 @@
 date: 2021-05-10T00:00:00Z
 tags: [tech, paper, distributed-systems, mixnets, internet, routing, privacy, security]
 title: 34th DistSys Reading Group - Mixnets
-type: "posts"
+
 ---
 
 34th session was on Mixnets as lots of people suggested in the past. As a

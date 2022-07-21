@@ -2,7 +2,7 @@
 date: 2021-06-29T00:00:00Z
 tags: [tech, paper, distributed-systems, mixnets, internet, routing, privacy, security]
 title: 35th DistSys Reading Group - Nym
-type: "posts"
+
 ---
 
 In our previous session we looked into Mixnets, more specifically Loopix. With

@@ -2,7 +2,7 @@
 date: 2022-03-06T00:00:00Z
 tags: [tech, distributed-systems, p2p, libp2p]
 title: Hole punching in libp2p
-type: "posts"
+
 ---
 
 We have been working on hole punching support in libp2p for the last year. It

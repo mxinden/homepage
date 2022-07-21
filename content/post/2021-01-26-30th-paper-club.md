@@ -2,7 +2,7 @@
 date: 2021-01-26T00:00:00Z
 tags: [tech, paper, distributed-systems, time]
 title: 30th DistSys Reading Group - NTP
-type: "posts"
+
 ---
 
 What better way to start a new year than with a paper discussing how to change

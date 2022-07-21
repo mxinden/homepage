@@ -2,7 +2,7 @@
 date: 2020-02-18T00:00:00Z
 tags: [tech, paper, distributed-systems]
 title: 23rd Distributed Systems Paper Club
-type: "posts"
+
 ---
 
 At the end of the previous session one of us suggested to dive into congestion

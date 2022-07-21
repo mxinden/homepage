@@ -2,7 +2,7 @@
 date: 2020-03-28T00:00:00Z
 tags: [tech, paper, lock-free, multithreaded, concurrent]
 title:  Elimination back-off stack
-type: "posts"
+
 ---
 
 Reading *The Art of Multiprocessor Programming* [1] I came across the
