@@ -1,7 +1,7 @@
 ---
 date: 2022-02-06
-title: Talk Peer-to-peer hole punching without centralized infrastructure
-tags: [talk]
+title: Talk "Peer-to-peer hole punching without centralized infrastructure" @FOSDEM
+tags: [talk, tech, libp2p]
 ---
 
 Gave a talk on hole punching in libp2p at FOSDEM 2022.

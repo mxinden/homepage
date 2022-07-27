@@ -12,8 +12,8 @@ and consensus. Welcome to my little island on this crazy thing called _The
 Internet_.
 
 You might enjoy browsing through [my list of resources I consider worth
-sharing](/misc), get some inspiration from the [numerous summaries of past
-reading group sessions](/blog) that I organize or simply scroll through [my
+sharing](/readings), get some inspiration from the [numerous summaries of past
+reading group sessions](/post) that I organize or simply scroll through [my
 resume](/resume) to see what I am up to lately.
 
 You can best reach me via e-mail: mail@max-inden.de.
