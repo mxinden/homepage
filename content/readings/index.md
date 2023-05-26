@@ -177,6 +177,10 @@ Papers
 - Cohen, Bram. **"Incentives build robustness in BitTorrent."** Workshop on
   Economics of Peer-to-Peer systems. Vol. 6. 2003.
 
+- Zhao, Mingchen, et al. **"Peer-assisted content distribution in akamai
+  netsession."** Proceedings of the 2013 conference on Internet measurement
+  conference. 2013.
+
 #### Gossip / epidemic broadcast
 
 Papers
