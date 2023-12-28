@@ -5,12 +5,29 @@ title: Resume
 
 ## Experience
 
-**Software Engineer at Protocol Labs** | March 2021 - Now
+### Software Engineer at Protocol Labs
 
-Steward of the [libp2p](https://libp2p.io/) project and maintainer of the [Rust
-libp2p implementation](https://github.com/libp2p/rust-libp2p/).
+March 2021 - December 2023
 
-**Software Engineer at Parity** | July 2019 - February 2021
+- co-lead of the open source peer-to-peer networking library
+  [libp2p](https://libp2p.io/) and technical lead of the [Rust libp2p
+  sub-project](https://github.com/libp2p/rust-libp2p/) with 4 direct reports
+- managing open source project with >250 contributors
+- design, specification and implementation of network protocols e.g.
+  decentralized hole punching without the reliance on central infrastructure, a
+  distributed hash table based on the _Kademlia_ research paper, security
+  handshakes and multiplexing on top of various web protocols
+- performance engineering e.g. introduction of an automated continuous benchmark setup cross
+  networks, transports and implementations, [multiplexer receive window
+  auto-tuning based on bandwidth-delay-product](https://github.com/libp2p/rust-yamux/pull/176)
+- facilitate networking track at conferences (e.g. [FOSDEM
+  2022](https://archive.fosdem.org/2022/schedule/track/network/)) and give [>10
+  peer-to-peer related talks](https://max-inden.de/tags/talk/)
+- hiring manager for the libp2p team and beyond with ~50 technical interviews
+
+### Software Engineer at Parity
+
+July 2019 - February 2021
 
 Maintaining Rust peer-to-peer networking library *libp2p* and its usage within
 the Blockchain framework *Substrate*. Involved in the networking logic of the main
@@ -19,14 +36,18 @@ hiring manager for team building automated testing infrastructure. Shepherding
 (Prometheus) monitoring across the company.
 
 
-**Freelance Network Engineer at SpaceNet AG** | Jun 2019
+### Freelance Network Engineer at SpaceNet AG
+
+Jun 2019
 
 Work on multiplexed fiber-optic setup and server migration. Wrote Prometheus
 exporter to monitor data center power modules via Modbus. Gained insight into
 BGP infrastructure.
 
 
-**Senior Software Engineer at CoreOS / RedHat** | Jan 2017 - May 2019
+### Senior Software Engineer at CoreOS / RedHat
+
+Jan 2017 - May 2019
 
 Systems engineer working on the open source monitoring project **Prometheus**
 and its integration with the **Kubernetes** ecosystem to monitor cloud-native
@@ -36,7 +57,9 @@ open source work at various IT conferences and champion the Prometheus project
 as a core maintainer.
 
 
-**Software Engineer at Innoscale** | Aug 2014 - Dec 2016
+### Software Engineer at Innoscale
+
+Aug 2014 - Dec 2016
 
 Development of a master data management web application. Involved as a back and
 front end JavaScript engineer. Spearheaded the introduction of a full stack
@@ -47,7 +70,9 @@ with a component based approach.  Providing company wide ReactJS workshops to
 accelerate the transition.
 
 
-**Software Engineer / Sales Engineer at Contelligence** | Feb - Jul 2014
+### Software Engineer / Sales Engineer at Contelligence
+
+Feb - Jul 2014
 
 Concept creation, development and sales of a Microsoft Office Add-on to support
 compliance processes for the enterprise document management in the finance
@@ -55,7 +80,9 @@ sector. Responsible for the application software testing. Introduction of a new
 human ressource management framework.
 
 
-**Associate System Support Analyst at DHL IT-Services** | Jul - Sep 2013
+### Associate System Support Analyst at DHL IT-Services
+
+Jul - Sep 2013
 
 Working in the IBM AS400 and Linux operation team.
 Development of graphical visualization tool to analyse the operation alert
@@ -63,7 +90,9 @@ system of the IBM infrastructure. Creating regular server security reports.
 Management of a database for internal license management.
 
 
-**System Administrator at Heuft Systemtechnik** | Oct - Nov 2009
+### System Administrator at Heuft Systemtechnik
+
+Oct - Nov 2009
 
 Supporting the internal IT department in hardware
 maintanance, network architecture and software distribution.
@@ -71,15 +100,21 @@ maintanance, network architecture and software distribution.
 
 ## Projects & Achievements
 
-- Implement [decentralized hole punching in
+- Design decentralized hole punching without the reliance on central
+  infrastructure
+  ([paper](https://research.protocol.ai/publications/decentralized-hole-punching/seemann2022.pdf))
+  and add implementation in
   rust-libp2p](https://github.com/libp2p/rust-libp2p/issues/2052) (2022-02-09).
 
 - Creator and maintainer of official [Prometheus Rust client
   library](https://github.com/prometheus/client_rust) (2022-01-16).
 
-- Increase Yamux throughput with [improved flow-control
+- Implement [receive window auto-tuning (flow-control)
+  ](https://github.com/libp2p/rust-yamux/pull/176) in Rust Yamux multiplexer
+  implementation based on bandwidth-delay-product, moving peak throughput from
+  ~30 Mbit/s to 1.3 Gbit/s. In addition [improve flow-control
   strategy](https://discuss.libp2p.io/t/optimizing-yamux-flow-control-sending-window-update-frames-early/843/1)
-  measuring a performance increase of 25% in the wild (2021-02-11).
+  measuring an additioanl performance increase of 25% in the wild (2021-02-11).
 
 - Optimize metric encoding in community [Prometheus Rust client
   library](https://github.com/tikv/rust-prometheus/pull/327) drastically
