@@ -11,7 +11,7 @@ March 2021 - December 2023
 
 - co-lead of the open source peer-to-peer networking library
   [libp2p](https://libp2p.io/) and technical lead of the [Rust libp2p
-  sub-project](https://github.com/libp2p/rust-libp2p/) with 4 direct reports
+  sub-project](https://github.com/libp2p/rust-libp2p/) with 3 direct reports
 - managing open source project with >250 contributors
 - design, specification and implementation of network protocols e.g.
   decentralized hole punching without the reliance on central infrastructure, a
