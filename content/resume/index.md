@@ -9,20 +9,15 @@ title: Resume
 
 March 2021 - December 2023
 
-- co-lead of the open source peer-to-peer networking library
-  [libp2p](https://libp2p.io/) and technical lead of the [Rust libp2p
-  sub-project](https://github.com/libp2p/rust-libp2p/) with 3 direct reports
-- managing open source project with >250 contributors
-- design, specification and implementation of network protocols e.g.
-  decentralized hole punching without the reliance on central infrastructure, a
-  distributed hash table based on the _Kademlia_ research paper, security
-  handshakes and multiplexing on top of various web protocols
-- performance engineering e.g. introduction of an automated continuous benchmark setup cross
-  networks, transports and implementations, [multiplexer receive window
-  auto-tuning based on bandwidth-delay-product](https://github.com/libp2p/rust-yamux/pull/176)
-- facilitate networking track at conferences (e.g. [FOSDEM
-  2022](https://archive.fosdem.org/2022/schedule/track/network/)) and give [>10
-  peer-to-peer related talks](https://max-inden.de/tags/talk/)
+- co-lead of the open source peer-to-peer networking library [libp2p](https://libp2p.io/) and technical lead of its [Rust implementation](https://github.com/libp2p/rust-libp2p/) with 3 direct reports and >250 external contributors
+- design, specification and implementation of network protocols e.g.:
+  - decentralized hole punching without the reliance on central infrastructure
+  - distributed hash table based on the _Kademlia_ research paper
+  - security handshakes and multiplexing on top of various web protocols
+- special focus on performance e.g.:
+  - introduction of an automated continuous benchmark setup cross networks, transports and implementations
+  - [multiplexer receive window auto-tuning based on bandwidth-delay-product](https://github.com/libp2p/rust-yamux/pull/176)
+- facilitate networking track at conferences (e.g. [FOSDEM 2022](https://archive.fosdem.org/2022/schedule/track/network/)) and give [>10 peer-to-peer](https://max-inden.de/tags/talk/) related talks
 - hiring manager for the libp2p team and beyond with ~50 technical interviews
 
 ### Software Engineer at Parity
