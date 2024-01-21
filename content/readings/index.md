@@ -10,13 +10,15 @@ Books
 - Gregg, B. (2013). **Systems performance: enterprise and the cloud**. Pearson
   Education.
 
+- Beyer, B., Jones, C., Petoff, J., & Murphy, N. R. (2016). **Site Reliability
+  Engineering: How Google Runs Production Systems**. " O'Reilly Media, Inc.".
+
+- [Ousterhout, John K. **A philosophy of software design**. Vol. 98. Palo Alto, CA, USA: Yaknyam Press, 2018.](https://web.stanford.edu/~ouster/cgi-bin/book.php)
+
 - Tanenbaum, A. S., & Van Steen, M. (2017). **Distributed systems**: principles and
   paradigms.
 
 - Love, R. (2005). **Linux Kernel Development** (Novell Press). Novell Press.
-
-- Beyer, B., Jones, C., Petoff, J., & Murphy, N. R. (2016). **Site Reliability
-  Engineering: How Google Runs Production Systems**. " O'Reilly Media, Inc.".
 
 ## Consensus
 
