@@ -23,10 +23,10 @@ Since then lots happened. A couple of milestones I was involved in:
 - rust-libp2p was long missing a QUIC transport implementation.
   [Eventually](https://github.com/libp2p/rust-libp2p/issues/2883) we were able to deliver this based on the quinn project, which I am very happy about, bringing lots of performance improvements to rust-libp2p users.
 - I managed the [specification and implementation of WebRTC in libp2p](https://github.com/libp2p/specs/issues/220). While a great match for a p2p library, unfortunately up until today, it has not seen larger adoption.
-- A tiny fraction of IPFS today is powered by [a rust-libp2p based IPFS bootstrap node](https://blog.ipfs.tech/2023-rust-libp2p-based-ipfs-bootstrap-node/) handling ~35k connections on a medium sized machine.
+- A tiny fraction of IPFS today is powered by [a rust-libp2p based IPFS bootstrap node](https://blog.ipfs.tech/2023-rust-libp2p-based-ipfs-bootstrap-node/) handling ~35k connections on a medium-sized machine.
 - A major portion of my time in 2023 went into an [automated performance setup for the many libp2p implementations](https://github.com/libp2p/test-plans/blob/master/perf/README.md).
   The outcome in my eyes is both [visually appealing](https://observablehq.com/@libp2p-workspace/performance-dashboard) and impactful from a performance perspective (see final item).
-- We shipped many developer experience improvements, taming some of the complexity inherint to peer-to-peer networking e.g. the [`SwarmBuilder`](https://github.com/libp2p/rust-libp2p/pull/4120).
+- We shipped many developer experience improvements, taming some of the complexity inherent to peer-to-peer networking e.g. the [`SwarmBuilder`](https://github.com/libp2p/rust-libp2p/pull/4120).
 - Security is hard, especially on the internet, doubly so when in a peer-to-peer setting.
   A lot of our work went into security fixes, especially around DOS attacks.
   See e.g. a [major memory exhaustion attack](https://github.com/libp2p/rust-libp2p/security/advisories/GHSA-jvgw-gccv-q5p8) and [a talk](https://max-inden.de/post/2022-11-02-dos-defense-dos-and-donts/) inspired by this work.
@@ -35,7 +35,7 @@ Since then lots happened. A couple of milestones I was involved in:
   Implementing [stream receive window auto-tuning in the Rust Yamux implementation](https://github.com/libp2p/rust-yamux/pull/176) improved throughput on high bandwidth connections from 33 Mbit/s to 1.3 Gbit/s.
 
 During my time the rust-libp2p maintainer team went from 4 down to 1, up to 2, 3, back to 4, and now down to 1.
-I hope for the current tide to change once again.
+I hope for another positive trend to follow.
 I enjoyed working with every maintainer, the larger libp2p team and the [many contributors](https://github.com/libp2p/rust-libp2p/graphs/contributors).
 Thank you!
 **None** of the above listed work would have been possible without you.
@@ -55,4 +55,4 @@ Just send me a mail.
 
 What is next?
 Don't know yet.
-Probably open source, strongly typed and routable on the internet.
+Probably open source, strongly typed, pushing bytes over the Internet.
