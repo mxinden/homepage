@@ -98,7 +98,7 @@ maintanance, network architecture and software distribution.
 - Design decentralized hole punching without the reliance on central
   infrastructure
   ([paper](https://research.protocol.ai/publications/decentralized-hole-punching/seemann2022.pdf))
-  and add implementation in
+  and [add implementation in
   rust-libp2p](https://github.com/libp2p/rust-libp2p/issues/2052) (2022-02-09).
 
 - Creator and maintainer of official [Prometheus Rust client
