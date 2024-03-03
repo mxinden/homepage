@@ -16,7 +16,7 @@ Since then lots happened. A couple of milestones I was involved in:
   While a good first project, it was never deployed on any of the larger networks.
   Attacking a DHT is [not that hard](https://arxiv.org/pdf/2307.12212.pdf), making it secure takes a lot more than this.
 - Eventually we added what one would expect every p2p library to have - support for hole punching.
-  This was a huge effort.
+  That was a huge effort.
   We rolled our own relay implementation, a custom coordination protocol, various tricks around address discovery and mapping, ...
   Long story short, [we invented lots of new wheels](https://blog.ipfs.tech/2022-01-20-libp2p-hole-punching/) ...
   Really, we should have started off of [ICE](https://en.wikipedia.org/wiki/Interactive_Connectivity_Establishment).
