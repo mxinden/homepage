@@ -17,9 +17,11 @@ Since then lots happened. A couple of milestones I was involved in:
   Attacking a DHT is [not that hard](https://arxiv.org/pdf/2307.12212.pdf), making it secure takes a lot more than this.
 - Eventually we added what one would expect every p2p library to have - support for hole punching.
   That was a huge effort.
-  We rolled our own relay implementation, a custom coordination protocol, various tricks around address discovery and mapping, ...
-  Long story short, [we invented lots of new wheels](https://blog.ipfs.tech/2022-01-20-libp2p-hole-punching/) ...
+  We rolled our own relay protocol, a custom coordination protocol, an address discovery protocol, ...
+  Long story short, [we invented lots of new wheels](https://blog.ipfs.tech/2022-01-20-libp2p-hole-punching/).
   Really, we should have started off of [ICE](https://en.wikipedia.org/wiki/Interactive_Connectivity_Establishment).
+  E.g. instead of designing our custom address discovery protocol, we should have learned early on from STUN and its past mistakes.
+  This stuff is hard.
 - rust-libp2p was long missing a QUIC transport implementation.
   [Eventually](https://github.com/libp2p/rust-libp2p/issues/2883) we were able to deliver this based on the quinn project, which I am very happy about, bringing lots of performance improvements to rust-libp2p users.
 - I managed the [specification and implementation of WebRTC in libp2p](https://github.com/libp2p/specs/issues/220). While a great match for a p2p library, unfortunately up until today, it has not seen larger adoption.
