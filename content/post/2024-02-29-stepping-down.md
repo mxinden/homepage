@@ -24,7 +24,8 @@ Since then lots happened. A couple of milestones I was involved in:
   This stuff is hard.
 - rust-libp2p was long missing a QUIC transport implementation.
   [Eventually](https://github.com/libp2p/rust-libp2p/issues/2883) we were able to deliver this based on the quinn project, which I am very happy about, bringing lots of performance improvements to rust-libp2p users.
-- I managed the [specification and implementation of WebRTC in libp2p](https://github.com/libp2p/specs/issues/220). While a great match for a p2p library, unfortunately up until today, it has not seen larger adoption.
+- I managed the [specification and implementation of WebRTC in libp2p](https://github.com/libp2p/specs/issues/220).
+  While a great match for a p2p library, unfortunately up until today, it has not seen larger adoption.
 - A tiny fraction of IPFS today is powered by [a rust-libp2p based IPFS bootstrap node](https://blog.ipfs.tech/2023-rust-libp2p-based-ipfs-bootstrap-node/) handling ~35k connections on a medium-sized machine.
 - A major portion of my time in 2023 went into an [automated performance setup for the many libp2p implementations](https://github.com/libp2p/test-plans/blob/master/perf/README.md).
   The outcome in my eyes is both [visually appealing](https://observablehq.com/@libp2p-workspace/performance-dashboard) and impactful from a performance perspective (see final item).
