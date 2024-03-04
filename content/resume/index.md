@@ -24,11 +24,10 @@ March 2021 - December 2023
 
 July 2019 - February 2021
 
-Maintaining Rust peer-to-peer networking library *libp2p* and its usage within
-the Blockchain framework *Substrate*. Involved in the networking logic of the main
-byzantine fault tolerant finality gadget *finality-grandpa*. Filling role of
-hiring manager for team building automated testing infrastructure. Shepherding
-(Prometheus) monitoring across the company.
+Maintaining Rust peer-to-peer networking library *libp2p* and its usage within the Blockchain framework *Substrate*.
+Worked on networking stack of the byzantine fault tolerant consensus protocol.
+Filling role of hiring manager for team building automated testing infrastructure.
+Shepherding (Prometheus) monitoring across the company.
 
 
 ### Freelance Network Engineer at SpaceNet AG
