@@ -8,6 +8,6 @@
 	path = public
 	url = git@github.com:mxinden/mxinden.github.io.git
 	branch = master
-[submodule "themes/even"]
-	path = themes/even
-	url = https://github.com/olOwOlo/hugo-theme-even
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git

@@ -5,23 +5,7 @@ title = "Max Inden"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
-theme = "even"
-enableGitInfo = false # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
-
-# Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
-pygmentsOptions = "linenos=table"
-pygmentsCodefences = true
-pygmentsUseClasses = true
-pygmentsCodefencesGuessSyntax = true
-
-hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
-paginate = 5                                              # 首页每页显示的文章数
-disqusShortname = ""      # disqus_shortname
-# googleAnalytics = ""      # UA-XXXXXXXX-X
-copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
-
-[author]                  # essential                     # 必需
-  name = "Max Inden"
+theme = "PaperMod"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -59,7 +43,33 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 #   identifier = "categories"
 #   url = "/categories/"
 
+[params.homeInfoParams]
+Title = "I am Max, a _strange loop_ ..."
+Content = "interested in networking, distributed systems and type theory. Welcome to my little island on this astounding thing called _The Internet_."
+
+[[params.socialIcons]]
+name = "RSS"
+title = ""
+url = "/index.xml"
+
+[[params.socialIcons]]
+name = "email"
+title = ""
+url = "mailto:mail@max-inden.de"
+
+[[params.socialIcons]]
+name = "github"
+title = ""
+url = "https://github.com/mxinden"
+
+[[params.socialIcons]]
+name = "Twitter"
+title = ""
+url = "https://twitter.com/mxinden"
+
+
 [params]
+  author = "Max Inden"
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
 

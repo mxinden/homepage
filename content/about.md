@@ -5,7 +5,7 @@ weight: 50
 
 ---
 
-I am Max, a _strange loop_ interested in distributed systems, type theory and consensus. Welcome to my little island on this crazy thing called _The Internet_.
+I am Max, a _strange loop_ interested in networking, distributed systems and type theory. Welcome to my little island on this astounding thing called _The Internet_.
 
 You might enjoy browsing through [my list of resources I consider worth sharing](/readings), get some inspiration from the [numerous summaries of past reading group sessions](/post) that I organize or simply scroll through [my resume](/resume) to see what I am up to lately.
 
