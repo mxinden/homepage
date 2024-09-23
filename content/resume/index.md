@@ -4,6 +4,28 @@ title: Resume
 
 ## Experience
 
+### Software Engineer at Mozilla (fixed-term)
+
+June 2024 - November 2024
+
+- [Rewrite](https://bugzilla.mozilla.org/show_bug.cgi?id=1901292) Firefox's QUIC UDP IO path.
+  - Move to Rust via `quinn-udp`. See [bugzilla#1901295](https://bugzilla.mozilla.org/show_bug.cgi?id=1901295).
+  - Switch to multi-packet UDP I/O using OS mechanisms like `recvmmsg`, generic receive offloading, across Linux, Windows, and Android.
+  - Enables support for ancillary IP metadata, such as Explicit Congestion Notification (ECN), improving congestion signals. See [bugzilla#1902065](https://bugzilla.mozilla.org/show_bug.cgi?id=1902065).
+- Introduce Glean metrics into HTTP3/QUIC Rust stack. See [bugzilla#1906853](https://bugzilla.mozilla.org/show_bug.cgi?id=1906853).
+
+### External contributor to Mozilla's HTTP3/QUIC stack
+
+December 2023 - May 2024
+
+- 89 pull requests to [github.com/mozilla/neqo](https://github.com/mozilla/neqo).
+- Refactor client and server implementation [away from `mio` to `tokio`](https://github.com/mozilla/neqo/pulls?q=is%3Apr+is%3Aclosed+author%3Amxinden+merged%3A%3C2024-06-01+bin).
+- Rewrite UDP IO path, [leveraging `sendmsg`, `recvmmsg` and `GRO` via `quinn-udp`](https://github.com/mozilla/neqo/pulls?q=is%3Apr+is%3Aclosed+author%3Amxinden+merged%3A%3C2024-06-01+quinn-udp).
+- Replace mozilla-central's `http3server` custom UDP IO stack, reusing new IO stack in [github.com/mozilla/neqo](https://github.com/mozilla/neqo) instead. See [bugzilla#1895319](https://bugzilla.mozilla.org/show_bug.cgi?id=1895319).
+- Report and fix security vulnerability due to unbounded memory allocation based on unsanitized network input. See [bugzilla#1875701](https://bugzilla.mozilla.org/show_bug.cgi?id=1875701) and [CVE-2024-2613](https://www.mozilla.org/en-US/security/advisories/mfsa2024-12/#CVE-2024-2613).
+- Fix cross-layer race conditions, see e.g. [github.com/mozilla/neqo#1819](https://github.com/mozilla/neqo/issues/1819).
+- Draft stream receive window auto-tuning, preventing upper throughput limit on high bandwidth-delay-product connections (e.g. 160 Mbit/s on 50 ms connection). See [github.com/mozilla/neqo#1868](https://github.com/mozilla/neqo/pull/1868).
+
 ### Software Engineer at Protocol Labs
 
 March 2021 - December 2023
