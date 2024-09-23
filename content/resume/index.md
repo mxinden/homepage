@@ -10,7 +10,7 @@ June 2024 - November 2024
 
 - [Rewrite](https://bugzilla.mozilla.org/show_bug.cgi?id=1901292) Firefox's QUIC UDP IO path.
   - Move to Rust via `quinn-udp`. See [bugzilla#1901295](https://bugzilla.mozilla.org/show_bug.cgi?id=1901295).
-  - Switch to multi-packet UDP I/O using OS mechanisms like `recvmmsg`, generic receive offloading, across Linux, Windows, and Android.
+  - Switch to multi-packet UDP IO using OS mechanisms like `recvmmsg`, generic receive offloading, across Linux, Windows, and Android.
   - Enables support for ancillary IP metadata, such as Explicit Congestion Notification (ECN), improving congestion signals. See [bugzilla#1902065](https://bugzilla.mozilla.org/show_bug.cgi?id=1902065).
 - Introduce Glean metrics into HTTP3/QUIC Rust stack. See [bugzilla#1906853](https://bugzilla.mozilla.org/show_bug.cgi?id=1906853).
 

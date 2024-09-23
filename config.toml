@@ -44,7 +44,7 @@ theme = "PaperMod"
 #   url = "/categories/"
 
 [params.homeInfoParams]
-Title = "I am Max, a _strange loop_ ..."
+Title = "I am Max, a [_strange loop_](https://en.wikipedia.org/wiki/Strange_loop) ..."
 Content = "interested in networking, distributed systems and type theory. Welcome to my little island on this astounding thing called _The Internet_."
 
 [[params.socialIcons]]
