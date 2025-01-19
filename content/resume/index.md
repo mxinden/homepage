@@ -1,12 +1,13 @@
 ---
 title: Resume
+author: Max Leonard Inden
 ---
 
 ## Experience
 
-### Software Engineer at Mozilla (fixed-term)
+### Software Engineer at Mozilla
 
-June 2024 - November 2024
+June 2024 - now
 
 - [Rewrite](https://bugzilla.mozilla.org/show_bug.cgi?id=1901292) Firefox's QUIC UDP IO path.
   - Move to Rust via `quinn-udp`. See [bugzilla#1901295](https://bugzilla.mozilla.org/show_bug.cgi?id=1901295).
