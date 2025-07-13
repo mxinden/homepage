@@ -15,6 +15,8 @@ Books
 
 - [Ousterhout, John K. **A philosophy of software design**. Vol. 98. Palo Alto, CA, USA: Yaknyam Press, 2018.](https://web.stanford.edu/~ouster/cgi-bin/book.php)
 
+- Bakhvalov, Denis. [Performance Analysis and Tuning of Modern CPUs](https://www.goodreads.com/book/show/221589431-performance-analysis-and-tuning-on-modern-cpus). D. Bakhvalov, 2020.
+
 - Tanenbaum, A. S., & Van Steen, M. (2017). **Distributed systems**: principles and
   paradigms.
 
