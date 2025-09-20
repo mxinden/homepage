@@ -100,7 +100,7 @@ Instead of sending a single datagram at a time, some operating systems nowadays 
     +--------------------------+
 ```
 
-### Large segmented datagram 
+### Single large segmented datagram
 
 Some modern operating systems and network interface cards also support system call families with UDP segmentation offloading, e.g. `GSO` and `GRO` on Linux. Instead of sending multiple UDP datagrams in a batch, it enables the application to send a single large UDP datagram, i.e. larger than the Maximum Transmission Unit, to the kernel. Next, either the kernel, but really ideally the network interface card, will segment it into multiple smaller packets, add a header to each and calculates the UDP checksum. The reverse happens on the receive path, where multiple incoming packets can be coalesced into a single large UDP datagram delivered to the application all at once.
 
