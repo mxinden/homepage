@@ -36,7 +36,7 @@ Firefox is multi-platform, focusing on Windows, Android, MacOS and Linux as [tie
 The main complexity though stems from Firefox supporting ancient versions of each of them, e.g.
 Android 5.
 
-One year later, i.e. mid 2025, this project is now rolling out to the majority of Firefox users.
+One year later, i.e., mid 2025, this project is now rolling out to the majority of Firefox users.
 Performance benchmark results are promising.
 In extreme cases, on purely CPU bound benchmarks, we're seeing a jump from < 1Gbit/s [to 4 Gbit/s](https://github.com/mozilla/neqo/actions/workflows/bench.yml).
 Looking at CPU flamegraphs, the majority of CPU time is now spent in I/O system calls and cryptography code.
