@@ -23,7 +23,10 @@ Can Firefox benefit from replacing its aging UDP I/O stack with modern system ca
 
 ## Overview
 
-This project began in mid-2024 with the goal of rewriting Firefox's QUIC UDP I/O stack in Rust using modern system calls across all supported operating systems.
+This project began in mid-2024 with the goal of rewriting Firefox's QUIC UDP I/O stack using modern system calls across all supported operating systems.
+Beyond performance improvements, we wanted to increase security by using a memory-safe language to do UDP I/O.
+Firefox's QUIC state machine itself is implemented in Rust already.
+We thereby chose Rust for this project as well, giving us both increased security and easy integration with the existing QUIC codebase.
 
 Instead of starting from scratch, we built on top of [`quinn-udp`](https://github.com/quinn-rs/quinn/tree/main/quinn-udp), the UDP I/O library of the Quinn project, a QUIC implementation in Rust.
 This sped up our development efforts significantly.
@@ -219,7 +222,7 @@ As with Windows, no issues on this first step, ignoring one [report](https://bug
 
 Unfortunately MacOS does not offer UDP segmentation offloading, neither on the send, nor on the receive side.
 What it does offer though are two undocumented system calls, namely [`sendmsg_x`](https://github.com/apple-oss-distributions/xnu/blob/94d3b452840153a99b38a3a9659680b2a006908e/bsd/sys/socket.h#L1457-L1487) and [`recvmsg_x`](https://github.com/apple-oss-distributions/xnu/blob/94d3b452840153a99b38a3a9659680b2a006908e/bsd/sys/socket.h#L1425-L1455), allowing a user to send and receive batches of UDP datagrams at once.
-Lars from Mozilla added it to quinn-udp, exposed behind the `fast-apple-datapath` Rust feature, off by default.
+Lars from Mozilla added it to quinn-udp, exposed behind the `fast-apple-datapath` feature flag, off by default.
 After multiple iterations with smaller bugfixes ([#2154](https://github.com/quinn-rs/quinn/pull/2154), [#2214](https://github.com/quinn-rs/quinn/issues/2214), [#2216](https://github.com/quinn-rs/quinn/pull/2216) ...) we decided to [not ship it to users](https://github.com/mozilla/neqo/pull/2638), not knowing how MacOS would behave, in case Apple ever decides to remove it, but with Firefox still calling it.
 
 
@@ -260,7 +263,7 @@ With [L4S](https://datatracker.ietf.org/doc/rfc9330/) and thus ECN becoming more
 
 ## Summary
 
-We successfully replaced Firefox's QUIC UDP I/O stack with a modern Rust-based implementation using quinn-udp.
+We successfully replaced Firefox's QUIC UDP I/O stack with a modern memory-safe implementation using quinn-udp.
 Instead of limited and dated system calls like `sendto` and `recvfrom`, Firefox now uses modern OS specific system calls across all major platforms, resulting in HTTP/3 QUIC throughput improvements when CPU bound, and enabling QUIC ECN support across all major platforms.
 Some OS specific optimizations still need more work, e.g. `USO` and `URO` on Windows.
 That said, especially given QUIC's growing adoption and thus increased UDP usage, I am optimistic that OS and driver support will continue to improve.
