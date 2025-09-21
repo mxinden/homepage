@@ -89,7 +89,7 @@ In addition all user space and kernel space overhead independent of the number o
 
 Instead of sending a single datagram at a time, some operating systems nowadays offer multi-message system call families, e.g. on Linux `sendmmsg` and `recvmmsg`.
 The idea is simple.
-Send and receive multiple UDP datagrams at once, save on the costs that are independent of the number of bytes send and received.
+Send and receive multiple UDP datagrams at once, save on the costs that are independent of the number of bytes sent and received.
 
 ```
     +--------------------------+
