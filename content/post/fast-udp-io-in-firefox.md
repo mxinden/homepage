@@ -201,7 +201,7 @@ It is hosted behind the CDN provider Fastly.
 Fastly is a heavy user of Linux's GSO, i.e. sends larger UDP datagram trains, perfect to be coalesced into a single large segmented UDP datagram when Firefox receives it.
 Why would Window's `URO` prevent Firefox from loading the site?
 
-After many hours of back and forth with the reporter, luckily a Mozilla employee as well, I ended up buying the exact same laptop , **same color**, in a desperate attempt to reproduce the issue.
+After many hours of back and forth with the reporter, luckily a Mozilla employee as well, I ended up buying the exact same laptop, **same color**, in a desperate attempt to reproduce the issue.
 Without much luck at first, I eventually needed a Linux command line tool, thus installed WSL, and to my surprise, that triggered the bug ([reproducer](https://github.com/quinn-rs/quinn/issues/2041#issuecomment-2495419003)).
 Turns out, on Windows on ARM, with WSL enabled, a `WSARecvMsg` call with `URO` would not return a segment size, thus Firefox was unable to differentiate a single datagram, from a single segmented datagram.
 QUIC short header packets don't carry a length, thus there is no way to tell where one QUIC packet ends and another starts, leading to the above page load failures.
