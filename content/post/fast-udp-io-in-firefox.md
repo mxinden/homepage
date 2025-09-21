@@ -35,7 +35,7 @@ Android 5.
 
 One year later, i.e. mid 2025, this project is now rolling out to the majority of Firefox users.
 Performance benchmark results are promising.
-In extreme cases, on purely CPU bound benchmarks, we're seeing a jump from < 1Gbit/s to 4 Gbit/s.
+In extreme cases, on purely CPU bound benchmarks, we're seeing a jump from < 1Gbit/s [to 4 Gbit/s](https://github.com/mozilla/neqo/actions/workflows/bench.yml).
 Looking at CPU flamegraphs, the majority of CPU time is now spent in I/O system calls and cryptography code.
 
 Below are the many improvements we were able to land, plus the ones we weren't.
@@ -52,7 +52,7 @@ The OS would send (and receive) that UDP datagram to (and from) the network inte
 The NIC would send (and receive) it to (and from) *the Internet*.
 
 Thus each datagram would require leaving user space which is cheap for one UDP datagram, but [expensive when sending at say a 500 Mbit/s rate](/post/2020-06-19-latencies/).
-In addition all user space and kernel space overhead independent of the number of bytes sent and received, is payed per datagram, i.e. per < 1500 bytes.
+In addition all user space and kernel space overhead independent of the number of bytes sent and received, is paid per datagram, i.e. per < 1500 bytes.
 
 ```
     +----------------------+
@@ -231,8 +231,9 @@ Thus far, this has proven the right choice for Firefox as well.
 
 In addition to segmentation offloading being superior in the first place, Firefox uses one UDP socket per connection in order to improve privacy.
 As each socket gets its own source port it is harder to correlate connections.
-Why is this relevant here? `GSO` (and `GRO`) can only segment (and coalesce)  datagrams from the same 4-tuple (src IP, src port, dst IP, dst port), `sendmmsg` and `recvmmsg`  on the other hand can send and receive across 4 tuples.
-Given that Firefox uses one socket per connection, it can not make use of that destinct benefit of `sendmmsg` (and `recvmmsg`), making segmentation offloading yet again the obvious choice for Firefox.
+Why is this relevant here?
+`GSO` (and `GRO`) can only segment (and coalesce) datagrams from the same 4-tuple (src IP, src port, dst IP, dst port), `sendmmsg` and `recvmmsg` on the other hand can send and receive across 4-tuples.
+Given that Firefox uses one socket per connection, it cannot make use of that distinct benefit of `sendmmsg` (and `recvmmsg`), making segmentation offloading yet again the obvious choice for Firefox.
 
 Ignoring minor changes required to [Firefox's optional network sandboxing](https://hg-edge.mozilla.org/integration/autoland/rev/5f3a2655d2f4), replacing Firefox's QUIC UDP I/O stack on Linux has been without issues, now enjoying all the benefits of segmentation offloading.
 
@@ -260,4 +261,6 @@ With [L4S](https://datatracker.ietf.org/doc/rfc9330/) and thus ECN becoming more
 ## Summary
 
 We successfully replaced Firefox's QUIC UDP I/O stack with a modern Rust-based implementation using quinn-udp.
-Instead of limited and dated system calls like `sendto` and `recvfrom`, Firefox now uses modern OS specific system calls across all major platforms, resulting in HTTP/3 QUIC throughput improvements when CPU bound, and enabling QUIC ECN support across devices.
+Instead of limited and dated system calls like `sendto` and `recvfrom`, Firefox now uses modern OS specific system calls across all major platforms, resulting in HTTP/3 QUIC throughput improvements when CPU bound, and enabling QUIC ECN support across all major platforms.
+Some OS specific optimizations still need more work, e.g. `USO` and `URO` on Windows.
+That said, especially given QUIC's growing adoption and thus increased UDP usage, I am optimistic that OS and driver support will continue to improve.
