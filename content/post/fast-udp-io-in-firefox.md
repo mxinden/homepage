@@ -171,10 +171,13 @@ We updated the [Mozilla QUIC client and server test implementation](https://gith
 
 Next we rewrote the UDP datagram processing pipeline in the Mozilla QUIC implementation to [send](https://github.com/mozilla/neqo/pull/2184) and [receive](https://github.com/mozilla/neqo/pull/2184) batches of datagrams.
 This is done in a way, such that we can leverage both the multi-message style system calls, as well as the segmentation offloading style, if available.
+We added this along with various other I/O improvements, e.g. Lars added [in-place en-/decryption](https://github.com/mozilla/neqo/pull/2385).
+Going into detail here is better done in a separate blog post.
+Let's focus on UDP I/O here.
 
 So far so good.
 This was the easy part.
-Up next, the edge cases by operating system and version.
+Up next, the edge cases by platform.
 
 ## Platform details
 
