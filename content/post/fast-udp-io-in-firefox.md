@@ -257,7 +257,7 @@ For example [this excellent find by Thomas](https://github.com/quinn-rs/quinn/pu
 ## Explicit congestion notifications (ECN)
 
 With Firefox using modern system calls across all major operating systems, a nice additional benefit is the ability to send and receive ancillary data like [IP ECN](https://en.wikipedia.org/wiki/Explicit_Congestion_Notification).
-This too [came with some minor surprises](https://github.com/quinn-rs/quinn/pull/1765/), but QUIC ECN in Firefox is well on its way now.
+This too [came with some minor surprises](https://github.com/quinn-rs/quinn/pull/1765), but QUIC ECN in Firefox is well on its way now.
 Firefox Nightly telemetry shows around [50% of all QUIC connections running on ECN outbound capable paths](https://glam.telemetry.mozilla.org/fog/probe/networking_http_3_ecn_path_capability/explore?).
 With [L4S](https://datatracker.ietf.org/doc/rfc9330/) and thus ECN becoming more and more relevant in today's Internet, this is a great step forward.
 
