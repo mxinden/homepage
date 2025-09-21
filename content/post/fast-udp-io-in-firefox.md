@@ -43,6 +43,7 @@ Looking at CPU flamegraphs, the majority of CPU time is now spent in I/O system 
 
 Below are the many improvements we were able to land, plus the ones we weren't.
 I hope other projects in need of fast UDP I/O can benefit from our work.
+To make their lifes easier, below I am documenting the many learnings we made.
 
 ## The basics
 
