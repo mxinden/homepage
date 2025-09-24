@@ -239,7 +239,7 @@ Why is this relevant here?
 `GSO` (and `GRO`) can only segment (and coalesce) datagrams from the same 4-tuple (src IP, src port, dst IP, dst port), `sendmmsg` and `recvmmsg` on the other hand can send and receive across 4-tuples.
 Given that Firefox uses one socket per connection, it cannot make use of that distinct benefit of `sendmmsg` (and `recvmmsg`), making segmentation offloading yet again the obvious choice for Firefox.
 
-Ignoring minor changes required to [Firefox's optional network sandboxing](https://hg-edge.mozilla.org/integration/autoland/rev/5f3a2655d2f4), replacing Firefox's QUIC UDP I/O stack on Linux has been without issues, now enjoying all the benefits of segmentation offloading.
+Ignoring minor changes required to [Firefox's optional network sandboxing](https://hg-edge.mozilla.org/integration/autoland/rev/5f3a2655d2f4), and an additional at runtime [GSO support check](https://bugzilla.mozilla.org/show_bug.cgi?id=1989895), replacing Firefox's QUIC UDP I/O stack on Linux has been without issues, now enjoying all the benefits of segmentation offloading.
 
 ### Android
 
