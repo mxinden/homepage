@@ -8,6 +8,9 @@ TocOpen: false
 
 ## Motivation
 
+Around 20% of Firefox's HTTP traffic today uses HTTP/3, which runs over QUIC, which in turn runs over UDP.
+This translates to substantial UDP I/O activity.
+
 Firefox uses [NSPR](https://www-archive.mozilla.org/projects/nspr/) for most of its network I/O.
 When it comes to UDP I/O, NSPR only offers a limited set of dated APIs, most relevant here [`PR_SendTo`](https://firefox-source-docs.mozilla.org/nspr/reference/pr_sendto.html) and [`PR_RecvFrom`](https://firefox-source-docs.mozilla.org/nspr/reference/pr_recvfrom.html), wrappers around POSIX's `sendto` and `recvfrom`.
 The N in NSPR stands for Netscape, giving you a hint of its age.
@@ -17,8 +20,6 @@ Many offer multi-message APIs like `sendmmsg` and `recvmmsg`.
 Some offer segmentation offloading like GSO (Generic Segmentation Offload) and GRO (Generic Receive Offload).
 Each of these promise significant performance improvements for UDP I/O.
 
-Around 20% of Firefox's HTTP traffic now uses HTTP/3, which runs over QUIC, which in turn runs over UDP.
-This translates to substantial UDP I/O activity.
 Can Firefox benefit from replacing its aging UDP I/O stack with modern system calls?
 
 ## Overview
