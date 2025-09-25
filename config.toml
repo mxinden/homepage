@@ -58,6 +58,11 @@ title = ""
 url = "mailto:mail@max-inden.de"
 
 [[params.socialIcons]]
+name = "mastodon"
+title = ""
+url = "https://mastodon.social/@mxinden"
+
+[[params.socialIcons]]
 name = "github"
 title = ""
 url = "https://github.com/mxinden"
