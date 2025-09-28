@@ -35,7 +35,7 @@ Big thank you to the Quinn project.
 Operating system calls are complex, with a myriad of idiosyncrasies, especially across versions.
 Firefox is multi-platform, focusing on Windows, Android, MacOS and Linux as [tier 1](https://firefox-source-docs.mozilla.org/build/buildsystem/supported-configurations.html#supported-build-targets).
 The main complexity though stems from Firefox supporting ancient versions of each of them, e.g.
-Android 5.
+Android 5. (Edit: Mozilla has since [dropped Android 5 support](https://blog.mozilla.org/futurereleases/2025/09/15/raising-the-minimum-android-version-for-firefox/).)
 
 One year later, i.e., mid 2025, this project is now rolling out to the majority of Firefox users.
 Performance benchmark results are promising.
@@ -244,11 +244,11 @@ Ignoring minor changes required to [Firefox's optional network sandboxing](https
 
 ### Android
 
-During the time of this project I learned quickly that (a) Android is not Linux and (b) that [Firefox still supports Android 5](https://support.mozilla.org/en-US/kb/will-firefox-work-my-mobile-device), ..., on x86 (32 bit).
+During the time of this project I learned quickly that (a) Android is not Linux and (b) that [Firefox still supports Android 5](https://support.mozilla.org/en-US/kb/will-firefox-work-my-mobile-device), ..., on x86 (32 bit). (Edit: Mozilla has since [dropped Android 5 support](https://blog.mozilla.org/futurereleases/2025/09/15/raising-the-minimum-android-version-for-firefox/).)
 
 On x86, [Android dispatches advanced socket calls through `socketcall` system call](https://github.com/quinn-rs/quinn/pull/1964) instead of calling e.g. `sendmsg` directly.
 In addition Android has various default seccomp filters, crashing an app when e.g. not going through the required `socketcall` system call.
-[The combination of the two](https://github.com/quinn-rs/quinn/pull/1966) did cost me a couple of days, resulting in [this (basically single line) change in quinn-udp](https://github.com/quinn-rs/quinn/pull/1966).
+[The combination of the two](https://github.com/quinn-rs/quinn/pull/1964) did cost me a couple of days, resulting in [this (basically single line) change in quinn-udp](https://github.com/quinn-rs/quinn/pull/1966).
 
 On Android API level 25 and below, calling `sendmsg` with an ECN bit set [results in an error `EINVAL`](https://github.com/quinn-rs/quinn/pull/1975).
 [quinn-udp will now simply retry on `EINVAL`](https://github.com/quinn-rs/quinn/pull/2079) disabling various optional settings (e.g. ECN) on the second attempt.
